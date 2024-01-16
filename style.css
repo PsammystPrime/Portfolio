@@ -1,20 +1,42 @@
+body{
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .container{
     margin: 10px;
+    background-image: url(./113.png);
+    /* background-color: aqua; */
+    border-radius: 5px;
 }
 .navButtons{
     display: flex;
     gap: 20px;
     justify-content: flex-end;
+    padding: 15px 50px 0 0;
+}
+.navButtons > button{
+    background-color: goldenrod;
+}
+.navButtons > button:hover{
+    background-color: thistle;
+    color: blue;
 }
 .socialButtons{
     display: flex;
     gap: 20px;
+    padding: 0 0 15px 30px;
+}
+.socialButtons > button{
+    background-color: darkolivegreen;
+}
+.socialButtons > button:hover{
+    background-color: thistle;
+    color: blue;
 }
 .about{
     display: flex;
-    background-color: aqua;
     gap: 50px;
-    height: 60vh;
+    height: 55vh;
     padding-top: 50px;
     padding-left: 200px;
 }
@@ -34,9 +56,15 @@ form{
 .send{
     margin-top: 3px;
     align-self: flex-start;
+    background-color: rgb(95, 95, 175);
+}
+.send:hover{
+    background-color: aqua;
 }
 p{
     width: 35vw;
+    color: burlywood;
+    background-color: black;
 }
 img{
     margin-top: 30px;
