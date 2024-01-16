@@ -27,9 +27,19 @@ form{
     display: flex;
     flex-direction: column;
     background-color: brown;
-    width: fit-content;
+    width: 20vw;
+    padding: 20px 60px 20px 60px;
+    border-radius: 10px;
+}
+.send{
+    margin-top: 3px;
+    align-self: flex-start;
+}
+p{
+    width: 35vw;
 }
 img{
+    margin-top: 30px;
     height: 40vh;
     border-radius: 80px;
 }
