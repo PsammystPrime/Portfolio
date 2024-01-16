@@ -1,0 +1,25 @@
+.container{
+    margin: 10px;
+}
+.navButtons{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+.socialButtons{
+    display: flex;
+    gap: 20px;
+}
+.about{
+    display: flex;
+    background-color: aqua;
+    gap: 50px;
+    height: 80vh;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+img{
+    height: 40vh;
+    border-radius: 80px;
+}
