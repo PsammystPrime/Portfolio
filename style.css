@@ -14,11 +14,21 @@
     display: flex;
     background-color: aqua;
     gap: 50px;
-    height: 80vh;
+    height: 60vh;
     padding-top: 50px;
     padding-left: 200px;
 }
-
+.emailForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    width: fit-content;
+}
 img{
     height: 40vh;
     border-radius: 80px;
