@@ -4,7 +4,7 @@ body{
 }
 .container{
     margin: 10px;
-    background-image: url(./113.png);
+    /* background-image: url(./113.png); */
     /* background-color: aqua; */
     border-radius: 5px;
 }
@@ -79,15 +79,26 @@ p{
 .blog{
     display: flex;
     background-color: aqua;
-    height: 30vh ;
+    height: 35vh ;
     width: 70vw;
-    margin: 30px;
+    margin: 20px 0 0 30px;
     gap: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+    overflow: hidden;
+}
+.blog:hover{
+    transform: translateX(30px);
+    transition: 500ms ease-out;
 }
 .blogPic{
     height: 25vh;
-    padding: 15px 0 0 0;
+    /* width: 25vw; */
+    padding: 30px 0 0 0;
 }
 .blogText{
-
+    height: 95px;
+}
+.navButtons > .projects{
+    background-color: antiquewhite;
 }
