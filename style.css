@@ -99,6 +99,6 @@ p{
 .blogText{
     height: 95px;
 }
-.navButtons > .projects{
+.navButtons >.blogs{
     background-color: antiquewhite;
 }
