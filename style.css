@@ -66,11 +66,28 @@ p{
     color: burlywood;
     background-color: black;
 }
-img{
+.mainImg{
     margin-top: 30px;
     height: 40vh;
     border-radius: 80px;
 }
 .display{
     height: 543px;
+    overflow: auto;
+}
+
+.blog{
+    display: flex;
+    background-color: aqua;
+    height: 30vh ;
+    width: 70vw;
+    margin: 30px;
+    gap: 20px;
+}
+.blogPic{
+    height: 25vh;
+    padding: 15px 0 0 0;
+}
+.blogText{
+
 }
