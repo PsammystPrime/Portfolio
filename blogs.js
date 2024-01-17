@@ -1,9 +1,8 @@
 const display = document.querySelector('.display')
 
-function alert (){
-    return console.log('alive too')
-
+function updateBlogs (){
+    //return console.log('alive too')
+    display.textContent = ''
 }
 
-
-export{alert}
+export{updateBlogs}
