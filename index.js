@@ -13,68 +13,67 @@ home.addEventListener('click', updateHome)
 const display = document.querySelector('.display')
 
 function updateHome(){
-    
     display.textContent=''
 
-    function Blogs(image,title,preview){
-        this.image=image
-        this.title=title
-        this.preview=preview
-    }
-    
-    let blog=new Blogs('img','none','other')
-    console.log(blog)
 }
+// function updateHome(){
+    
+//     display.textContent=''
+
+//     function Blogs(image,title,preview){
+//         this.image=image
+//         this.title=title
+//         this.preview=preview
+//     }
+    
+//     let blog=new Blogs('img','none','other')
+//     console.log(blog)
+// }
 admin.addEventListener('click',function form(){
+ return alert('Access Denied!')
+    //     const card = document.createElement('form');
+    //     const cardButton=document.createElement('button')
+    //     const cardImg = document.createElement('div');
+    //     const imgLabel = document.createElement('label');
+    //     const imgSource = document.createElement('input');
 
-    // projectsStore.forEach(function(project){
-  
-        const card = document.createElement('form');
-        const cardButton=document.createElement('button')
-        const cardImg = document.createElement('div');
-        const imgLabel = document.createElement('label');
-        const imgSource = document.createElement('input');
+    //     const cardHeader = document.createElement('div');
+    //     const headerLabel = document.createElement('label');
+    //     const headerText = document.createElement('input');
 
-        const cardHeader = document.createElement('div');
-        const headerLabel = document.createElement('label');
-        const headerText = document.createElement('input');
-
-        const cardDetails = document.createElement('div');
-        const detailsLabel = document.createElement('label');
-        const detailsText = document.createElement('input');
+    //     const cardDetails = document.createElement('div');
+    //     const detailsLabel = document.createElement('label');
+    //     const detailsText = document.createElement('input');
         
-        cardImg.appendChild(imgLabel)
-        cardImg.appendChild(imgSource)
-        cardHeader.appendChild(headerLabel)
-        cardHeader.appendChild(headerText)
-        cardDetails.appendChild(detailsLabel)
-        cardDetails.appendChild(detailsText)
-
+    //     cardImg.appendChild(imgLabel)
+    //     cardImg.appendChild(imgSource)
+    //     cardHeader.appendChild(headerLabel)
+    //     cardHeader.appendChild(headerText)
+    //     cardDetails.appendChild(detailsLabel)
+    //     cardDetails.appendChild(detailsText)
         
+    //     card.id = 'card'
+    //     cardImg.id='cardImage'
+    //     cardHeader.id='cardHeader'
+    //     cardDetails.id = 'cardDetails'
+    //     cardButton.id= 'cardButton'
 
-        card.id = 'card'
-        cardImg.id='cardImage'
-        cardHeader.id='cardHeader'
-        cardDetails.id = 'cardDetails'
-        cardButton.id= 'cardButton'
-
-        imgLabel.textContent='Image Name'
-        headerLabel.textContent='Title'
-        detailsLabel.textContent='About'
-        cardButton.textContent= 'Submit'
+    //     imgLabel.textContent='Image Name'
+    //     headerLabel.textContent='Title'
+    //     detailsLabel.textContent='About'
+    //     cardButton.textContent= 'Submit'
         
-        card.appendChild(cardImg);
-        card.appendChild(cardHeader);
-        card.appendChild(cardDetails);
-        card.appendChild(cardButton)
+    //     card.appendChild(cardImg);
+    //     card.appendChild(cardHeader);
+    //     card.appendChild(cardDetails);
+    //     card.appendChild(cardButton)
         
-          display.appendChild(card)
+    //       display.appendChild(card)
 
-    cardButton.addEventListener('click', (e)=>{
-        e.preventDefault()
-        display.removeChild(card)
-        console.log('clicked')
-    })
+    // cardButton.addEventListener('click', (e)=>{
+    //     e.preventDefault()
+    //     display.removeChild(card)
+    //})
 })
 
 
