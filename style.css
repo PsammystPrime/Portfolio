@@ -69,10 +69,19 @@ p{
     color: burlywood;
     background-color: black;
 }
+h2{
+    color: rgb(19, 194, 107);
+    background-color: black;
+    width: min-content;
+    padding: 20px;
+}
 .mainImg{
     margin-top: 30px;
     height: 40vh;
     border-radius: 80px;
+}
+.textArea{
+    background-color: black;
 }
 .display{
     height: 543px;
@@ -136,7 +145,7 @@ p{
     height: 543px;
 }
 .info{
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
    height: 543px;
    width: 30%;
 }
