@@ -62,7 +62,7 @@ form{
     background-color: aqua;
 }
 p{
-    width: 35vw;
+    width: 50vw;
     color: burlywood;
     background-color: black;
 }
@@ -80,7 +80,7 @@ p{
     display: flex;
     background-color: aqua;
     height: 35vh ;
-    width: 60vw;
+    width: 80vw;
     margin: 20px 0 0 30px;
     gap: 20px;
     border-radius: 5px;
@@ -129,10 +129,10 @@ p{
     background-color: thistle;
     color: blue;
 }
-#admin{
+/* #admin{
     margin-top: 10px;
 }
-#card{
+#inputCard{
     height: 200px;
     width: 400px;
     background-color: chartreuse;
@@ -152,6 +152,6 @@ display: flex;
 }
 label{
     width: min-content;
-}
+} */
 
 
