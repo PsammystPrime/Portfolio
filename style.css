@@ -147,6 +147,7 @@ h2{
 
 .blogPic{
     height: 25vh;
+    max-width: 18vw;
     /* width: 25vw; */
     padding: 30px 0 0 0;
 }
