@@ -4,7 +4,7 @@ const displayMain = document.createElement('div')
 const about = document.createElement('div')
 const aboutImage = document.createElement('img')
 const aboutInfo = document.createElement('div')
-const aboutHeader = document.createElement('h1')
+const aboutHeader = document.createElement('h2')
 const aboutText = document.createElement('p')
 
 displayMain.className = 'displayMain'
