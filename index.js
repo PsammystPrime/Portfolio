@@ -6,16 +6,14 @@ const admin = document.querySelector('#admin');
 
 import { updateBlogs } from "./blogs.js";
 import { UpdateProjects } from "./projects.js";
+import { updateHome } from "./home.js";
 
 blogs.addEventListener('click', updateBlogs)
 projects.addEventListener('click', UpdateProjects)
 home.addEventListener('click', updateHome)
-const display = document.querySelector('.display')
 
-function updateHome(){
-    display.textContent=''
 
-}
+
 // function updateHome(){
     
 //     display.textContent=''
