@@ -16,12 +16,12 @@ const blogCard = document.createElement('div')
 const blogHeader = document.createElement('h1')
 const blogText = document.createElement('p')
 
-blog.className = 'blog'
+blog.className = 'project'
 blogPic.className = 'blogPic'
-blogPic.src = './freelance.png'
-blogText.className = 'blogText'
+blogPic.src = './peoplebg.jpeg'
+blogText.className = 'projectText'
 blogHeader.className = 'blogHeader'
-blogHeader.textContent = `Beginner's Quick Guide`
+blogHeader.textContent = `Staffood Restaurant`
 blogText.textContent = `The world of freelance workand remote jobs has seen the emergence of a rapid 
 desire for technical sklls globally.`
 
@@ -35,10 +35,10 @@ const blog2Pic = document.createElement('img')
 const blog2Card = document.createElement('div')
 const blog2Header = document.createElement('h1')
 const blog2Text = document.createElement('p')
-blog2.className = 'blog'
+blog2.className = 'project'
 blog2Pic.className = 'blogPic'
 blog2Pic.src = './arrays.jpg'
-blog2Text.className = 'blogText'
+blog2Text.className = 'projectText'
 blog2Header.className = 'blogHeader'
 blog2Header.textContent = 'Javascript Arrays'
 blog2Text.textContent = `Arrays are one of the fundamental concepts to learn when one 
