@@ -81,7 +81,7 @@ blog2Pic.className = 'blogPic'
 blog2Pic.src = './weather.png'
 blog2Text.className = 'projectText'
 blog2Header.className = 'blogHeader'
-blog2Header.textContent = 'Javascript Arrays'
+blog2Header.textContent = 'Weather App'
 blog2Text.textContent = `Arrays are one of the fundamental concepts to learn when one 
 Is getting started with programming. ` 
 blog2Card.appendChild(blog2Header)
@@ -141,7 +141,7 @@ blog3Pic.className = 'blogPic'
 blog3Pic.src = './calc.png'
 blog3Text.className = 'projectText'
 blog3Header.className = 'blogHeader'
-blog3Header.textContent = `Staffood Restaurant`
+blog3Header.textContent = `Calculator`
 blog3Text.textContent = `The world of freelance workand remote jobs has seen the emergence of a rapid 
 desire for technical sklls globally.`
 
@@ -201,7 +201,7 @@ blog4Pic.className = 'blogPic'
 blog4Pic.src = './slider.png'
 blog4Text.className = 'projectText'
 blog4Header.className = 'blogHeader'
-blog4Header.textContent = `Staffood Restaurant`
+blog4Header.textContent = `Image Slider`
 blog4Text.textContent = `The world of freelance workand remote jobs has seen the emergence of a rapid 
 desire for technical sklls globally.`
 
@@ -261,7 +261,7 @@ blog5Pic.className = 'blogPic'
 blog5Pic.src = './admin.png'
 blog5Text.className = 'projectText'
 blog5Header.className = 'blogHeader'
-blog5Header.textContent = `Staffood Restaurant`
+blog5Header.textContent = `Admin Dashboard for a Blog`
 blog5Text.textContent = `The world of freelance workand remote jobs has seen the emergence of a rapid 
 desire for technical sklls globally.`
 
@@ -290,7 +290,7 @@ stack5.className = 'stack'
 
 objective5Header.textContent = 'Project Objective'
 objective5Text.textContent = 'This is a Project solely devoted to use of grids in css as opposed to use of flexbox'
-stack5List1.textContent = 'Dynamic'
+stack5List1.textContent = 'Static'
 stack5List2.textContent = 'HTML5'
 stack5List3.textContent = 'CSS'
 stack5List4.textContent = 'JavaScript'
@@ -299,12 +299,12 @@ blog5Objective.appendChild(objective5Header)
 blog5Objective.appendChild(objective5Text)
 stack5.appendChild(stack5List1)
 stack5.appendChild(stack5List2)
+stack5.appendChild(stack5List3)
 stack5.appendChild(stack5List4)
-stack5.appendChild(stack5List2)
 blog5Stack.appendChild(stack5Header)
 blog5Stack.appendChild(stack5)
 
-blog.addEventListener('mouseover',()=> {
+blog5.addEventListener('mouseover',()=> {
     info.textContent = ''
     info.appendChild(blog5Objective)
     info.appendChild(blog5Stack)
@@ -321,7 +321,7 @@ blog6Pic.className = 'blogPic'
 blog6Pic.src = './list.png'
 blog6Text.className = 'projectText'
 blog6Header.className = 'blogHeader'
-blog6Header.textContent = `Staffood Restaurant`
+blog6Header.textContent = `To do list`
 blog6Text.textContent = `The world of freelance workand remote jobs has seen the emergence of a rapid 
 desire for technical sklls globally.`
 
@@ -381,7 +381,7 @@ blog7Pic.className = 'blogPic'
 blog7Pic.src = './library.png'
 blog7Text.className = 'projectText'
 blog7Header.className = 'blogHeader'
-blog7Header.textContent = `Staffood Restaurant`
+blog7Header.textContent = `Book Library`
 blog7Text.textContent = `The world of freelance workand remote jobs has seen the emergence of a rapid 
 desire for technical sklls globally.`
 
@@ -441,7 +441,7 @@ blog8Pic.className = 'blogPic'
 blog8Pic.src = './2024.jpg'
 blog8Text.className = 'projectText'
 blog8Header.className = 'blogHeader'
-blog8Header.textContent = `Staffood Restaurant`
+blog8Header.textContent = `Landing Page`
 blog8Text.textContent = `The world of freelance workand remote jobs has seen the emergence of a rapid 
 desire for technical sklls globally.`
 
@@ -470,7 +470,7 @@ stack8.className = 'stack'
 
 objective8Header.textContent = 'Project Objective'
 objective8Text.textContent = 'This is a Project solely devoted to use of grids in css as opposed to use of flexbox'
-stack8List1.textContent = 'Dynamic'
+stack8List1.textContent = 'Static'
 stack8List2.textContent = 'HTML5'
 stack8List3.textContent = 'CSS'
 stack8List4.textContent = 'JavaScript'
@@ -501,7 +501,7 @@ blog9Pic.className = 'blogPic'
 blog9Pic.src = './card.png'
 blog9Text.className = 'projectText'
 blog9Header.className = 'blogHeader'
-blog9Header.textContent = `Staffood Restaurant`
+blog9Header.textContent = `Card`
 blog9Text.textContent = `The world of freelance workand remote jobs has seen the emergence of a rapid 
 desire for technical sklls globally.`
 
@@ -530,7 +530,7 @@ stack9.className = 'stack'
 
 objective9Header.textContent = 'Project Objective'
 objective9Text.textContent = 'This is a Project solely devoted to use of grids in css as opposed to use of flexbox'
-stack9List1.textContent = 'Dynamic'
+stack9List1.textContent = 'Static'
 stack9List2.textContent = 'HTML5'
 stack9List3.textContent = 'CSS'
 stack9List4.textContent = 'JavaScript'
@@ -561,7 +561,7 @@ blog10Pic.className = 'blogPic'
 blog10Pic.src = './count.png'
 blog10Text.className = 'projectText'
 blog10Header.className = 'blogHeader'
-blog10Header.textContent = `Staffood Restaurant`
+blog10Header.textContent = `Passenger Counter`
 blog10Text.textContent = `The world of freelance workand remote jobs has seen the emergence of a rapid 
 desire for technical sklls globally.`
 
