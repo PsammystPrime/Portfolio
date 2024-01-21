@@ -80,7 +80,7 @@ p{
     display: flex;
     background-color: aqua;
     height: 35vh ;
-    width: 70vw;
+    width: 60vw;
     margin: 20px 0 0 30px;
     gap: 20px;
     border-radius: 5px;
@@ -88,8 +88,9 @@ p{
     overflow: hidden;
 }
 .blog:hover{
-    transform: translateX(30px);
-    transition: 500ms ease-out;
+    background-color: brown;
+    transform: translateX(30px );
+    transition: transform 500ms ease-out;
 }
 .blogPic{
     height: 25vh;
@@ -102,3 +103,20 @@ p{
 .navButtons >.blogs{
     background-color: antiquewhite;
 }
+.projectDisplay{
+    display: flex;
+    background-color: blanchedalmond;
+    height: 543px;
+}
+.info{
+    background-color: rebeccapurple;
+   height: 543px;
+   width: 24%;
+}
+.projects{
+    background-color: rgb(218, 143, 32);
+   height: 543px;
+   width: 80%;
+}
+
+
