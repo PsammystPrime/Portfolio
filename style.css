@@ -4,9 +4,12 @@ body{
 }
 .container{
     margin: 10px;
-    /* background-image: url(./113.png); */
+    
     /* background-color: aqua; */
     border-radius: 5px;
+}
+.displayMain{
+    background-image: url(./113.png);
 }
 .navButtons{
     display: flex;

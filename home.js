@@ -1,12 +1,13 @@
 const display = document.querySelector('.display')
 
+const displayMain = document.createElement('div')
 const about = document.createElement('div')
 const aboutImage = document.createElement('img')
 const aboutInfo = document.createElement('div')
 const aboutHeader = document.createElement('h1')
 const aboutText = document.createElement('p')
 
-
+displayMain.className = 'displayMain'
 about.className = 'about'
 aboutImage.src = './pic.png'
 aboutImage.className = 'mainImg'
@@ -49,10 +50,12 @@ form.appendChild(messageInput)
 form.appendChild(submitButton)
 emailForm.appendChild(form)
 
+displayMain.appendChild(about)
+displayMain.appendChild(emailForm)
 
 function updateHome(){
     display.textContent=''
-    display.appendChild(about)
-    display.appendChild(emailForm)
+    display.appendChild(displayMain)
+
 }
 export{updateHome}
