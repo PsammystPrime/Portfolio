@@ -118,5 +118,40 @@ p{
    height: 543px;
    width: 80%;
 }
+.headButtons{
+    display: flex;
+    justify-content: space-between;
+}
+.headButtons > button{
+    background-color: goldenrod;
+}
+.headButtons > button:hover{
+    background-color: thistle;
+    color: blue;
+}
+#admin{
+    margin-top: 10px;
+}
+#card{
+    height: 200px;
+    width: 400px;
+    background-color: chartreuse;
+    gap: 20px;
+}
+#cardDetails{
+display: flex;
+}
+#cardHeader{
+display: flex;
+}
+#cardImage{
+    display: flex;
+}
+#cardButton{
+    width: min-content;
+}
+label{
+    width: min-content;
+}
 
 
