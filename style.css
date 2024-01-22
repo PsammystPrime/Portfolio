@@ -37,6 +37,8 @@ body{
                                                             /* About */
 .about{
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 50px;
     /* height: 55vh; */
     /* width: min-content; */
@@ -48,9 +50,8 @@ body{
     margin-top: 30px;
     height: 40vh;
     border-radius: 80px;
-    background-color: black;
+    background-color: 5px black;
     padding: 5px;
-    border: 5px solid gray;
     animation-name: changeColor;
     animation-duration: 2s;
     animation-direction: alternate;
@@ -69,7 +70,7 @@ body{
     padding: 10px;
     margin: 10px;
 }
-
+                                                            /* Email */
 .emailForm{
     display: flex;
     flex-direction: column;
@@ -91,6 +92,7 @@ form{
 .send:hover{
     background-color: aqua;
 }
+                                            /* Universal Tags */
 p{
     width: 50vw;
     color: burlywood;
@@ -112,24 +114,18 @@ h2{
 .display{
     width: fit-content;
     height: 50%;
-    overflow: auto;
+    /* overflow: auto; */
+    margin-bottom: 20px;
 }
-
+                                                                /* Technical Blogs */
+.blogContainer{
+     /* overflow: auto;  */
+}
 .blog{
     display: flex;
     background-color: aqua;
-    height: 35vh ;
+    /* height: 35vh ; */
     width: 80vw;
-    margin: 20px 0 0 30px;
-    gap: 20px;
-    border-radius: 5px;
-    padding-left: 5px;
-}
-.project{
-    display: flex;
-    background-color: aqua;
-    height: 35vh ;
-    width: 60vw;
     margin: 20px 0 0 30px;
     gap: 20px;
     border-radius: 5px;
@@ -140,6 +136,28 @@ h2{
     transform: translateX(30px );
     transition: transform 500ms ease-out;
 }
+.blogPic{
+    height: 25vh;
+    max-width: 18vw;
+    padding: 30px 0 0 0;
+}
+.blogText{
+    /* height: 95px; */
+}
+
+
+
+.project{
+    display: flex;
+    background-color: aqua;
+    height: 35vh ;
+    width: 60vw;
+    margin: 20px 0 0 30px;
+    gap: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
 
 .project:hover {
     background-color: brown;
@@ -148,14 +166,7 @@ h2{
     
 }
 
-.blogPic{
-    height: 25vh;
-    max-width: 18vw;
-    padding: 30px 0 0 0;
-}
-.blogText{
-    height: 95px;
-}
+
 .projectText{
     width: 35vw;
     height: 95px;
