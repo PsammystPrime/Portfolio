@@ -9,6 +9,19 @@ body{
 .displayMain{
     background-image: url(./113.png);
 }
+
+                                                    /*Header Nav Buttons*/
+.headButtons{
+    display: flex;
+    justify-content: space-between;
+}
+.headButtons > button{
+    background-color: goldenrod;
+}
+.headButtons > button:hover{
+    background-color: thistle;
+    color: blue;
+}
 .navButtons{
     display: flex;
     gap: 20px;
@@ -34,6 +47,7 @@ body{
     background-color: thistle;
     color: blue;
 }
+
                                                             /* About */
 .about{
     display: flex;
@@ -70,6 +84,7 @@ body{
     padding: 10px;
     margin: 10px;
 }
+
                                                             /* Email */
 .emailForm{
     display: flex;
@@ -92,6 +107,7 @@ form{
 .send:hover{
     background-color: aqua;
 }
+
                                             /* Universal Tags */
 p{
     width: 50vw;
@@ -117,6 +133,7 @@ h2{
     /* overflow: auto; */
     margin-bottom: 20px;
 }
+
                                                                 /* Technical Blogs */
 .blogContainer{
      /* overflow: auto;  */
@@ -137,71 +154,76 @@ h2{
     transition: transform 500ms ease-out;
 }
 .blogPic{
-    height: 25vh;
-    max-width: 18vw;
+    height:  min-content;
+    width: 18vw;
     padding: 30px 0 0 0;
 }
 .blogText{
     /* height: 95px; */
 }
 
-
-
+                                                            /* Projects*/ 
+.projectsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 543px;
+    animation-name: changeColor;
+    animation-duration: 20s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes changeColor{
+    form{
+        background-color: rgb(235, 191, 126);
+    }
+    to{
+        background-color: rgb(97, 79, 79);
+    }
+}
+.projects{
+    /* background-color: rgb(95, 95, 175); */
+   height: 543px;
+   /* width: 80%; */
+   overflow: scroll;
+}            
+.project1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}                                                                                                           
 .project{
     display: flex;
     background-color: aqua;
-    height: 35vh ;
-    width: 60vw;
+   /* height: min-content; */
+    /* width: 60vw; */
     margin: 20px 0 0 30px;
     gap: 20px;
     border-radius: 5px;
-    padding-left: 5px;
+    padding: 5px;
 }
-
-
 .project:hover {
     background-color: brown;
     transform: translateX(30px );
-    transition: transform 500ms ease-out;
-    
+    transition: transform 500ms ease-out ;
 }
-
-
 .projectText{
     width: 35vw;
-    height: 95px;
-    
-}
-.navButtons >.blogs{
-    background-color: antiquewhite;
-}
-.projectDisplay{
-    display: flex;
-    background-color: blanchedalmond;
-    height: 543px;
 }
 .info{
    background-color: rgb(218, 143, 32); 
-   height: 543px;
-   width: 30%;
-   padding: 10px;
+    height: min-content; 
+    max-width:  30%; 
+    min-width: min-content;
+    border-radius: 5px;
+    margin: 20px 0 0 30px;
+    padding: 10px;
 }
-.projects{
-    background-color: rgb(95, 95, 175);
-   height: 543px;
-   width: 80%;
-   overflow: scroll;
-}
-.headButtons{
-    display: flex;
-    justify-content: space-between;
-}
-.headButtons > button{
-    background-color: goldenrod;
-}
-.headButtons > button:hover{
-    background-color: thistle;
-    color: blue;
+.info:hover{
+    background-color: brown;
+    transform: translateX(-30px );
+    transition: transform 500ms ease-out;
 }
 .objectiveText{
     width: fit-content;
