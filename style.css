@@ -55,11 +55,8 @@ body{
     align-items: center;
     justify-content: center;
     gap: 50px;
-    /* height: 55vh; */
-    /* width: min-content; */
     flex-wrap: wrap;
     padding-top: 50px;
-    /* padding-left: 200px; */
 }
 .mainImg{
     margin-top: 30px;
@@ -129,24 +126,17 @@ h2{
 }
 
 .display{
-    /* width: max-content; */
     height: 50%;
-    /* overflow: auto; */
     margin-bottom: 20px;
 }
 
                                                                 /* Technical Blogs */
 .blogContainer{
-    /* width: max-content; */
     height: min-content;
-    background-color: bisque;
-    /* overflow: scroll; 
-    overflow-y: scroll; */
 }
 .blog{
     display: flex;
     background-color: aqua;
-    /* height: 35vh ; */
     width: 80vw;
     margin: 20px 0 0 30px;
     gap: 20px;
@@ -162,9 +152,6 @@ h2{
     height:  min-content;
     width: 18vw;
     padding: 30px 0 0 0;
-}
-.blogText{
-    /* height: 95px; */
 }
 
                                                             /* Projects*/  
@@ -188,9 +175,7 @@ h2{
     }
 }
 .projects{
-    /* background-color: rgb(95, 95, 175); */
    height: 543px;
-   /* width: 80%; */
    overflow-y: scroll;
 }            
 .project1{
@@ -201,8 +186,6 @@ h2{
 .project{
     display: flex;
     background-color: aqua;
-   /* height: min-content; */
-    /* width: 60vw; */
     margin: 20px 0 0 30px;
     gap: 20px;
     border-radius: 5px;
