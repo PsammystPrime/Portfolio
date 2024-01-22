@@ -12,6 +12,12 @@ blogs.addEventListener('click', updateBlogs)
 projects.addEventListener('click', UpdateProjects)
 home.addEventListener('click', updateHome)
 
+const mode = document.querySelector('.mode')
+mode.addEventListener('click', ()=>{
+    let body = document.body
+    body.classList.toggle('light' )
+})
+
 
 
 // function updateHome(){

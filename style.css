@@ -1,6 +1,9 @@
 body{
-    background-color: black;
+    background-color: red;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.light{
+    background-color: black;
 }
 .container{
     margin: 10px;
@@ -14,8 +17,10 @@ body{
 .headButtons{
     display: flex;
     justify-content: space-between;
+    /* background-color: beige; */
 }
 .headButtons > button{
+
     background-color: goldenrod;
 }
 .headButtons > button:hover{
@@ -38,7 +43,9 @@ body{
 .socialButtons{
     display: flex;
     gap: 20px;
-    padding: 0 0 15px 30px;
+    padding: 5px 0 15px 30px;
+    background-color: aliceblue;
+    align-items: center;
 }
 .socialButtons > button{
     background-color: darkolivegreen;
@@ -46,6 +53,28 @@ body{
 .socialButtons > button:hover{
     background-color: thistle;
     color: blue;
+}
+#admin,#home{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 50%;
+    animation-name: bgColor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes bgColor{
+    form{
+        background-color: blue;
+    }
+    to{
+        background-color: red;
+    }
+}
+#admin:hover{
+    transform: rotate(360deg);
+    transition: all 2s ease-in-out ;
 }
 
                                                             /* About */
@@ -107,6 +136,26 @@ form{
 .send:hover{
     background-color: aqua;
 }
+#gh-logo{
+    width: 40px;
+    height: 40px;
+    background-color: aliceblue;
+}
+.mode{
+    width: 40px;
+    height: 40px;
+    transform: rotate(150deg);
+}
+.mode:hover{
+    background-color: red;
+    border-radius: 50%;
+    color: wheat;
+}
+footer{
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    align-self: self-end;
+}
 
                                             /* Universal Tags */
 p{
@@ -135,9 +184,6 @@ h2{
 }
 
                                                                 /* Technical Blogs */
-.blogContainer{
-     /* overflow: auto;  */
-}
 .blog{
     display: flex;
     background-color: aqua;
@@ -157,9 +203,6 @@ h2{
     height:  min-content;
     width: 18vw;
     padding: 30px 0 0 0;
-}
-.blogText{
-    /* height: 95px; */
 }
 
                                                             /* Projects*/ 
