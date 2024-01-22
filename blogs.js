@@ -1,4 +1,6 @@
 const display = document.querySelector('.display')
+const blogContainer = document.createElement('div')
+blogContainer.className = 'blogContainer'
 
 const blog2 = document.createElement('div')
 const blog2Pic = document.createElement('img')
@@ -105,11 +107,12 @@ function updateBlogs (){
     //return console.log('alive too')
     display.textContent = ''
 
-    display.appendChild(blog)
-    display.appendChild(blog2)
-    display.appendChild(blog3)
-    display.appendChild(blog4)
-    display.appendChild(blog5)
+    blogContainer.appendChild(blog)
+    blogContainer.appendChild(blog2)
+    blogContainer.appendChild(blog3)
+    blogContainer.appendChild(blog4)
+    blogContainer.appendChild(blog5)
+    display.appendChild(blogContainer)
 
 }
 
