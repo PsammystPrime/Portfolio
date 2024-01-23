@@ -485,8 +485,7 @@ blog8Pic.src = './2024.jpg'
 blog8Text.className = 'projectText'
 blog8Header.className = 'blogHeader'
 blog8Header.textContent = `Landing Page`
-blog8Text.textContent = `The world of freelance workand remote jobs has seen the emergence of a rapid 
-desire for technical sklls globally.`
+blog8Text.textContent = `My first Landing Page`
 
 blog8Card.appendChild(blog8Header)
 blog8Card.appendChild(blog8Text)
@@ -512,7 +511,7 @@ stack8Header.className = 'stackHeader'
 stack8.className = 'stack'
 
 objective8Header.textContent = 'Project Objective'
-objective8Text.textContent = 'This is a Project solely devoted to use of grids in css as opposed to use of flexbox'
+objective8Text.textContent = 'Use of foundational skills on HTML and CSS'
 stack8List1.textContent = 'Static'
 stack8List2.textContent = 'HTML5'
 stack8List3.textContent = 'CSS'
