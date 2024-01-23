@@ -50,7 +50,7 @@ stackHeader.className = 'stackHeader'
 stack.className = 'stack'
 
 objectiveHeader.textContent = 'Project Objective'
-objectiveText.textContent = 'This is a Project solely devoted to use of grids in css as opposed to use of flexbox'
+objectiveText.textContent = 'To demonstrate proper understanding of ES6 modules and Dom Manipulation'
 stackHeader.textContent = 'Tech-Stack'
 stackList1.textContent = 'Dynamic'
 stackList2.textContent = 'HTML5'
