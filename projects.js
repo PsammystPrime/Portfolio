@@ -353,8 +353,7 @@ blog6Pic.src = './list.png'
 blog6Text.className = 'projectText'
 blog6Header.className = 'blogHeader'
 blog6Header.textContent = `To do list`
-blog6Text.textContent = `The world of freelance workand remote jobs has seen the emergence of a rapid 
-desire for technical sklls globally.`
+blog6Text.textContent = `Not the usual type to-do-list. `
 
 blog6Card.appendChild(blog6Header)
 blog6Card.appendChild(blog6Text)
@@ -380,7 +379,7 @@ stack6Header.className = 'stackHeader'
 stack6.className = 'stack'
 
 objective6Header.textContent = 'Project Objective'
-objective6Text.textContent = 'This is a Project solely devoted to use of grids in css as opposed to use of flexbox'
+objective6Text.textContent = 'Dom manipulation on large scale and ES6 modules bundling using webpack '
 stack6List1.textContent = 'Dynamic'
 stack6List2.textContent = 'HTML5'
 stack6List3.textContent = 'CSS'
