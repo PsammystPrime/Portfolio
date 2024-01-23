@@ -551,8 +551,7 @@ blog9Pic.src = './card.png'
 blog9Text.className = 'projectText'
 blog9Header.className = 'blogHeader'
 blog9Header.textContent = `Card`
-blog9Text.textContent = `The world of freelance workand remote jobs has seen the emergence of a rapid 
-desire for technical sklls globally.`
+blog9Text.textContent = `A business card`
 
 blog9Card.appendChild(blog9Header)
 blog9Card.appendChild(blog9Text)
@@ -578,7 +577,7 @@ stack9Header.className = 'stackHeader'
 stack9.className = 'stack'
 
 objective9Header.textContent = 'Project Objective'
-objective9Text.textContent = 'This is a Project solely devoted to use of grids in css as opposed to use of flexbox'
+objective9Text.textContent = 'Use of git in remote projects'
 stack9List1.textContent = 'Static'
 stack9List2.textContent = 'HTML5'
 stack9List3.textContent = 'CSS'
