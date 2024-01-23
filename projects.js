@@ -24,8 +24,7 @@ blogPic.src = './peoplebg.jpeg'
 blogText.className = 'projectText'
 blogHeader.className = 'blogHeader'
 blogHeader.textContent = `Staffood Restaurant`
-blogText.textContent = `The world of freelance workand remote jobs has seen the emergence of a rapid 
-desire for technical sklls globally.`
+blogText.textContent = `A simple restaurant page for delicacies`
 
 blogCard.appendChild(blogHeader)
 blogCard.appendChild(blogText)
