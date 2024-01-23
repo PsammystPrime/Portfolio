@@ -286,9 +286,8 @@ blog5Pic.className = 'blogPic'
 blog5Pic.src = './admin.png'
 blog5Text.className = 'projectText'
 blog5Header.className = 'blogHeader'
-blog5Header.textContent = `Admin Dashboard for a Blog`
-blog5Text.textContent = `The world of freelance workand remote jobs has seen the emergence of a rapid 
-desire for technical sklls globally.`
+blog5Header.textContent = `Admin Blog`
+blog5Text.textContent = `A Admin dashboard for a blog website`
 
 blog5Card.appendChild(blog5Header)
 blog5Card.appendChild(blog5Text)
