@@ -577,7 +577,7 @@ stack9Header.className = 'stackHeader'
 stack9.className = 'stack'
 
 objective9Header.textContent = 'Project Objective'
-objective9Text.textContent = 'Use of git in remote projects'
+objective9Text.textContent = 'Frontend Mentor Project'
 stack9List1.textContent = 'Static'
 stack9List2.textContent = 'HTML5'
 stack9List3.textContent = 'CSS'
@@ -618,8 +618,7 @@ blog10Pic.src = './count.png'
 blog10Text.className = 'projectText'
 blog10Header.className = 'blogHeader'
 blog10Header.textContent = `Passenger Counter`
-blog10Text.textContent = `The world of freelance workand remote jobs has seen the emergence of a rapid 
-desire for technical sklls globally.`
+blog10Text.textContent = `Let's count`
 
 blog10Card.appendChild(blog10Header)
 blog10Card.appendChild(blog10Text)
@@ -645,7 +644,7 @@ stack10Header.className = 'stackHeader'
 stack10.className = 'stack'
 
 objective10Header.textContent = 'Project Objective'
-objective10Text.textContent = 'This is a Project solely devoted to use of grids in css as opposed to use of flexbox'
+objective10Text.textContent = 'Project from Scrimba'
 stack10List1.textContent = 'Dynamic'
 stack10List2.textContent = 'HTML5'
 stack10List3.textContent = 'CSS'
