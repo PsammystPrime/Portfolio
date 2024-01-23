@@ -221,8 +221,7 @@ blog4Pic.src = './slider.png'
 blog4Text.className = 'projectText'
 blog4Header.className = 'blogHeader'
 blog4Header.textContent = `Image Slider`
-blog4Text.textContent = `The world of freelance workand remote jobs has seen the emergence of a rapid 
-desire for technical sklls globally.`
+blog4Text.textContent = `An image Carousel`
 
 blog4Card.appendChild(blog4Header)
 blog4Card.appendChild(blog4Text)
@@ -248,7 +247,7 @@ stack4Header.className = 'stackHeader'
 stack4.className = 'stack'
 
 objective4Header.textContent = 'Project Objective'
-objective4Text.textContent = 'This is a Project solely devoted to use of grids in css as opposed to use of flexbox'
+objective4Text.textContent = 'Enhancing understanding of CSS'
 stack4List1.textContent = 'Dynamic'
 stack4List2.textContent = 'HTML5'
 stack4List3.textContent = 'CSS'
