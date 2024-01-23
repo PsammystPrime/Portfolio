@@ -155,8 +155,7 @@ blog3Pic.src = './calc.png'
 blog3Text.className = 'projectText'
 blog3Header.className = 'blogHeader'
 blog3Header.textContent = `Calculator`
-blog3Text.textContent = `The world of freelance workand remote jobs has seen the emergence of a rapid 
-desire for technical sklls globally.`
+blog3Text.textContent = `A JavaScript Calculator for Users`
 
 blog3Card.appendChild(blog3Header)
 blog3Card.appendChild(blog3Text)
@@ -182,7 +181,7 @@ stack3Header.className = 'stackHeader'
 stack3.className = 'stack'
 
 objective3Header.textContent = 'Project Objective'
-objective3Text.textContent = 'This is a Project solely devoted to use of grids in css as opposed to use of flexbox'
+objective3Text.textContent = 'Creating own functionality and abstaining from using the eval function'
 stack3List1.textContent = 'Dynamic'
 stack3List2.textContent = 'HTML5'
 stack3List3.textContent = 'CSS'
