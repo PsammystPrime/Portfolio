@@ -90,8 +90,7 @@ blog2Pic.src = './weather.png'
 blog2Text.className = 'projectText'
 blog2Header.className = 'blogHeader'
 blog2Header.textContent = 'Weather App'
-blog2Text.textContent = `Arrays are one of the fundamental concepts to learn when one 
-Is getting started with programming. ` 
+blog2Text.textContent = `Get live feed on climate conditions` 
 blog2Card.appendChild(blog2Header)
 blog2Card.appendChild(blog2Text)
 blog2.appendChild(blog2Pic)
@@ -116,7 +115,7 @@ stack2Header.className = 'stackHeader'
 stack2.className = 'stack'
 
 objective2Header.textContent = 'Project Objective'
-objective2Text.textContent = 'This is a Project solely devoted to use of grids in css as opposed to use of flexbox'
+objective2Text.textContent = "Demonstrating efficient fetching of data from API's, Json and Promises"
 stack2List1.textContent = 'Dynamic'
 stack2List2.textContent = 'HTML5'
 stack2List3.textContent = 'CSS'
