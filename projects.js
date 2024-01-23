@@ -419,8 +419,7 @@ blog7Pic.src = './library.png'
 blog7Text.className = 'projectText'
 blog7Header.className = 'blogHeader'
 blog7Header.textContent = `Book Library`
-blog7Text.textContent = `The world of freelance workand remote jobs has seen the emergence of a rapid 
-desire for technical sklls globally.`
+blog7Text.textContent = `An online library for books`
 
 blog7Card.appendChild(blog7Header)
 blog7Card.appendChild(blog7Text)
@@ -446,7 +445,7 @@ stack7Header.className = 'stackHeader'
 stack7.className = 'stack'
 
 objective7Header.textContent = 'Project Objective'
-objective7Text.textContent = 'This is a Project solely devoted to use of grids in css as opposed to use of flexbox'
+objective7Text.textContent = 'Robust Dom manipulation and Local Storage functionality'
 stack7List1.textContent = 'Dynamic'
 stack7List2.textContent = 'HTML5'
 stack7List3.textContent = 'CSS'
