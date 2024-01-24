@@ -28,8 +28,9 @@ blogText.textContent = `A simple restaurant page for delicacies`
 
 blogCard.appendChild(blogHeader)
 blogCard.appendChild(blogText)
-blog.appendChild(blogPic)
 blog.appendChild(blogCard)
+blog.appendChild(blogPic)
+
 
 const blogObjective = document.createElement('div')
 const objectiveHeader = document.createElement('h3')
@@ -93,8 +94,9 @@ blog2Header.textContent = 'Weather App'
 blog2Text.textContent = `Get live feed on climate conditions` 
 blog2Card.appendChild(blog2Header)
 blog2Card.appendChild(blog2Text)
-blog2.appendChild(blog2Pic)
 blog2.appendChild(blog2Card)
+blog2.appendChild(blog2Pic)
+
 
 const blog2Objective = document.createElement('div')
 const objective2Header = document.createElement('h3')
@@ -159,8 +161,9 @@ blog3Text.textContent = `A JavaScript Calculator for Users`
 
 blog3Card.appendChild(blog3Header)
 blog3Card.appendChild(blog3Text)
-blog3.appendChild(blog3Pic)
 blog3.appendChild(blog3Card)
+blog3.appendChild(blog3Pic)
+
 
 const blog3Objective = document.createElement('div')
 const objective3Header = document.createElement('h3')
@@ -225,8 +228,9 @@ blog4Text.textContent = `An image Carousel`
 
 blog4Card.appendChild(blog4Header)
 blog4Card.appendChild(blog4Text)
-blog4.appendChild(blog4Pic)
 blog4.appendChild(blog4Card)
+blog4.appendChild(blog4Pic)
+
 
 const blog4Objective = document.createElement('div')
 const objective4Header = document.createElement('h3')
@@ -291,8 +295,9 @@ blog5Text.textContent = `A Admin dashboard for a blog website`
 
 blog5Card.appendChild(blog5Header)
 blog5Card.appendChild(blog5Text)
-blog5.appendChild(blog5Pic)
 blog5.appendChild(blog5Card)
+blog5.appendChild(blog5Pic)
+
 
 const blog5Objective = document.createElement('div')
 const objective5Header = document.createElement('h3')
@@ -357,8 +362,9 @@ blog6Text.textContent = `Not the usual type to-do-list. `
 
 blog6Card.appendChild(blog6Header)
 blog6Card.appendChild(blog6Text)
-blog6.appendChild(blog6Pic)
 blog6.appendChild(blog6Card)
+blog6.appendChild(blog6Pic)
+
 
 const blog6Objective = document.createElement('div')
 const objective6Header = document.createElement('h3')
@@ -423,8 +429,9 @@ blog7Text.textContent = `An online library for books`
 
 blog7Card.appendChild(blog7Header)
 blog7Card.appendChild(blog7Text)
-blog7.appendChild(blog7Pic)
 blog7.appendChild(blog7Card)
+blog7.appendChild(blog7Pic)
+
 
 const blog7Objective = document.createElement('div')
 const objective7Header = document.createElement('h3')
@@ -489,8 +496,9 @@ blog8Text.textContent = `My first Landing Page`
 
 blog8Card.appendChild(blog8Header)
 blog8Card.appendChild(blog8Text)
-blog8.appendChild(blog8Pic)
 blog8.appendChild(blog8Card)
+blog8.appendChild(blog8Pic)
+
 
 const blog8Objective = document.createElement('div')
 const objective8Header = document.createElement('h3')
@@ -555,8 +563,9 @@ blog9Text.textContent = `A business card`
 
 blog9Card.appendChild(blog9Header)
 blog9Card.appendChild(blog9Text)
-blog9.appendChild(blog9Pic)
 blog9.appendChild(blog9Card)
+blog9.appendChild(blog9Pic)
+
 
 const blog9Objective = document.createElement('div')
 const objective9Header = document.createElement('h3')
@@ -622,8 +631,9 @@ blog10Text.textContent = `Let's count`
 
 blog10Card.appendChild(blog10Header)
 blog10Card.appendChild(blog10Text)
-blog10.appendChild(blog10Pic)
 blog10.appendChild(blog10Card)
+blog10.appendChild(blog10Pic)
+
 
 const blog10Objective = document.createElement('div')
 const objective10Header = document.createElement('h3')

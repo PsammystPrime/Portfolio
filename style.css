@@ -23,6 +23,17 @@ body{
 .modeButtons{
     display: flex;
     gap: 10px;
+    margin-bottom: 5px;
+}
+.mode{
+    width: 40px;
+    height: 40px;
+    transform: rotate(150deg);
+}
+.mode:hover{
+    background-color: red;
+    border-radius: 50%;
+    color: wheat;
 }
 .headButtons > button{
     background-color: goldenrod;
@@ -45,20 +56,7 @@ body{
     background-color: thistle;
     color: blue;
 }
-.socialButtons{
-    display: flex;
-    gap: 20px;
-    padding: 5px 0 15px 30px;
-    background-color: aliceblue;
-    align-items: center;
-}
-.socialButtons > button{
-    background-color: darkolivegreen;
-}
-.socialButtons > button:hover{
-    background-color: thistle;
-    color: blue;
-}
+
 #admin,#home{
     width: 40px;
     height: 40px;
@@ -139,25 +137,28 @@ form{
 .send:hover{
     background-color: aqua;
 }
+
+
+                                                    /*footer*/
+footer{
+    /* display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 5px 0 15px 30px;
+    background-color: aliceblue;
+    align-items: center; */
+}
+footer > button{
+    background-color: darkolivegreen;
+}
+footer > button:hover{
+    background-color: thistle;
+    color: blue;
+}                                                    
 #gh-logo{
     width: 40px;
     height: 40px;
     background-color: aliceblue;
-}
-.mode{
-    width: 40px;
-    height: 40px;
-    transform: rotate(150deg);
-}
-.mode:hover{
-    background-color: red;
-    border-radius: 50%;
-    color: wheat;
-}
-footer{
-    font-size: larger;
-    font-family: 'Courier New', Courier, monospace;
-    align-self: self-end;
 }
 
                                             /* Universal Tags */
@@ -218,11 +219,11 @@ h2{
 
                                                             /* Projects*/  
 .projectsContainer{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: black;
-    height: 543px;
-    animation-name: changeColor;
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* background-color: black; */
+    /* height: 543px; */
+    /* animation-name: changeColor; */
     animation-duration: 20s;
     animation-delay: 3s;
     animation-iteration-count: infinite;
@@ -237,26 +238,26 @@ h2{
     }
 }
 .projects{
-   height: 543px;
-   overflow-y: scroll;
+   /* height: 543px; */
+   /* overflow-y: scroll; */
 }            
 .project1{
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between; */
 }                                                                                                           
 .project{
-    display: flex;
-    background-color: aqua;
-    margin: 20px 0 0 30px;
+    /* display: flex; */
+    /* background-color: aqua; */
+    /* margin: 20px 0 0 30px;
     gap: 20px;
     border-radius: 5px;
-    padding: 5px;
+    padding: 5px; */
 }
 .project:hover {
-    background-color: brown;
-    transform: translateX(30px );
-    transition: transform 500ms ease-out ;
+    /* background-color: brown; */
+    /* transform: translateX(30px );
+    transition: transform 500ms ease-out ; */
 }
 /* .projectText{
     width: 35vw;
@@ -265,21 +266,24 @@ h2{
     width: 35vw;
 } */
 .info{
-   background-color: rgb(218, 143, 32); 
-    height: min-content; 
+   /* background-color: rgb(218, 143, 32);  */
+    /* height: min-content; 
     max-width:  30%; 
-    min-width: min-content;
-    border-radius: 5px;
+    min-width: min-content; */
+    /* border-radius: 5px;
     margin: 20px 0 0 30px;
-    padding: 10px;
+    padding: 10px; */
 }
 .info:hover{
-    transform: translateX(-30px );
-    transition: transform 500ms ease-out;
+    /* transform: translateX(-30px );
+    transition: transform 500ms ease-out; */
 }
 .objectiveText{
     width: fit-content;
 }
+
+
+
 /* #admin{
     margin-top: 10px;
 }
