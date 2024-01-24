@@ -16,8 +16,10 @@ const blog = document.createElement('div')
 const projectPic = document.createElement('img')
 const blogCard = document.createElement('div')
 const blogHeader = document.createElement('h1')
+const blogLink = document.createElement('a')
 const blogText = document.createElement('p')
 
+blogLink.href = 'https://Psammystprime.github.io/Card'
 blog.className = 'project'
 projectPic.className = 'projectPic'
 projectPic.src = './peoplebg.jpeg'
@@ -26,7 +28,8 @@ blogHeader.className = 'blogHeader'
 blogHeader.textContent = `Staffood Restaurant`
 blogText.textContent = `A simple restaurant page for delicacies`
 
-blogCard.appendChild(blogHeader)
+blogLink.appendChild(blogHeader)
+blogCard.appendChild(blogLink)
 blogCard.appendChild(blogText)
 blog.appendChild(blogCard)
 blog.appendChild(projectPic)
@@ -84,7 +87,10 @@ const blog2 = document.createElement('div')
 const blog2Pic = document.createElement('img')
 const blog2Card = document.createElement('div')
 const blog2Header = document.createElement('h1')
+const blog2Link = document.createElement('a')
 const blog2Text = document.createElement('p')
+
+blog2Link.href = 'https://Psammystprime.github.io/Card'
 blog2.className = 'project'
 blog2Pic.className = 'projectPic'
 blog2Pic.src = './weather.png'
@@ -92,7 +98,9 @@ blog2Text.className = 'projectText'
 blog2Header.className = 'blogHeader'
 blog2Header.textContent = 'Weather App'
 blog2Text.textContent = `Get live feed on climate conditions` 
-blog2Card.appendChild(blog2Header)
+
+blog2Link.appendChild(blog2Header)
+blog2Card.appendChild(blog2Link)
 blog2Card.appendChild(blog2Text)
 blog2.appendChild(blog2Card)
 blog2.appendChild(blog2Pic)
@@ -149,8 +157,10 @@ const blog3 = document.createElement('div')
 const blog3Pic = document.createElement('img')
 const blog3Card = document.createElement('div')
 const blog3Header = document.createElement('h1')
+const blog3Link = document.createElement('a')
 const blog3Text = document.createElement('p')
 
+blog3Link.href = 'https://Psammystprime.github.io/Card'
 blog3.className = 'project'
 blog3Pic.className = 'projectPic'
 blog3Pic.src = './calc.png'
@@ -159,7 +169,8 @@ blog3Header.className = 'blogHeader'
 blog3Header.textContent = `Calculator`
 blog3Text.textContent = `A JavaScript Calculator for Users`
 
-blog3Card.appendChild(blog3Header)
+blog3Link.appendChild(blog3Header)
+blog3Card.appendChild(blog3Link)
 blog3Card.appendChild(blog3Text)
 blog3.appendChild(blog3Card)
 blog3.appendChild(blog3Pic)
@@ -211,6 +222,7 @@ const blog4 = document.createElement('div')
 const blog4Pic = document.createElement('img')
 const blog4Card = document.createElement('div')
 const blog4Header = document.createElement('h1')
+const blog4Link = document.createElement('a')
 const blog4Text = document.createElement('p')
 
 const project4 = document.createElement('div')
@@ -218,6 +230,7 @@ project4.className = 'project1'
 const info4 = document.createElement('div')
 info4.className = 'info';
 
+blog4Link.href = 'https://Psammystprime.github.io/Card'
 blog4.className = 'project'
 blog4Pic.className = 'projectPic'
 blog4Pic.src = './slider.png'
@@ -226,7 +239,8 @@ blog4Header.className = 'blogHeader'
 blog4Header.textContent = `Image Slider`
 blog4Text.textContent = `An image Carousel`
 
-blog4Card.appendChild(blog4Header)
+blog4Link.appendChild(blog4Header)
+blog4Card.appendChild(blog4Link)
 blog4Card.appendChild(blog4Text)
 blog4.appendChild(blog4Card)
 blog4.appendChild(blog4Pic)
@@ -278,6 +292,7 @@ const blog5 = document.createElement('div')
 const blog5Pic = document.createElement('img')
 const blog5Card = document.createElement('div')
 const blog5Header = document.createElement('h1')
+const blog5Link = document.createElement('a')
 const blog5Text = document.createElement('p')
 
 const project5 = document.createElement('div')
@@ -285,6 +300,7 @@ project5.className = 'project1'
 const info5 = document.createElement('div')
 info5.className = 'info';
 
+blog5Link.href = 'https://Psammystprime.github.io/Card'
 blog5.className = 'project'
 blog5Pic.className = 'projectPic'
 blog5Pic.src = './admin.png'
@@ -293,7 +309,8 @@ blog5Header.className = 'blogHeader'
 blog5Header.textContent = `Admin Blog`
 blog5Text.textContent = `A Admin dashboard for a blog website`
 
-blog5Card.appendChild(blog5Header)
+blog5Link.appendChild(blog5Header)
+blog5Card.appendChild(blog5Link)
 blog5Card.appendChild(blog5Text)
 blog5.appendChild(blog5Card)
 blog5.appendChild(blog5Pic)
@@ -345,6 +362,7 @@ const blog6 = document.createElement('div')
 const blog6Pic = document.createElement('img')
 const blog6Card = document.createElement('div')
 const blog6Header = document.createElement('h1')
+const blog6Link = document.createElement('a')
 const blog6Text = document.createElement('p')
 
 const project6 = document.createElement('div')
@@ -352,6 +370,7 @@ project6.className = 'project1'
 const info6 = document.createElement('div')
 info6.className = 'info';
 
+blog6Link.href = 'https://Psammystprime.github.io/Card'
 blog6.className = 'project'
 blog6Pic.className = 'projectPic'
 blog6Pic.src = './list.png'
@@ -360,7 +379,8 @@ blog6Header.className = 'blogHeader'
 blog6Header.textContent = `To do list`
 blog6Text.textContent = `Not the usual type to-do-list. `
 
-blog6Card.appendChild(blog6Header)
+blog6Link.appendChild(blog6Header)
+blog6Card.appendChild(blog6Link)
 blog6Card.appendChild(blog6Text)
 blog6.appendChild(blog6Card)
 blog6.appendChild(blog6Pic)
@@ -412,6 +432,7 @@ const blog7 = document.createElement('div')
 const blog7Pic = document.createElement('img')
 const blog7Card = document.createElement('div')
 const blog7Header = document.createElement('h1')
+const blog7Link = document.createElement('a')
 const blog7Text = document.createElement('p')
 
 const project7 = document.createElement('div')
@@ -419,6 +440,7 @@ project7.className = 'project1'
 const info7 = document.createElement('div')
 info7.className = 'info';
 
+blog7Link.href = 'https://Psammystprime.github.io/Card'
 blog7.className = 'project'
 blog7Pic.className = 'projectPic'
 blog7Pic.src = './library.png'
@@ -427,7 +449,8 @@ blog7Header.className = 'blogHeader'
 blog7Header.textContent = `Book Library`
 blog7Text.textContent = `An online library for books`
 
-blog7Card.appendChild(blog7Header)
+blog7Link.appendChild(blog7Header)
+blog7Card.appendChild(blog7Link)
 blog7Card.appendChild(blog7Text)
 blog7.appendChild(blog7Card)
 blog7.appendChild(blog7Pic)
@@ -479,6 +502,7 @@ const blog8 = document.createElement('div')
 const blog8Pic = document.createElement('img')
 const blog8Card = document.createElement('div')
 const blog8Header = document.createElement('h1')
+const blog8Link = document.createElement('a')
 const blog8Text = document.createElement('p')
 
 const project8 = document.createElement('div')
@@ -486,6 +510,7 @@ project8.className = 'project1'
 const info8 = document.createElement('div')
 info8.className = 'info';
 
+blog8Link.href = 'https://Psammystprime.github.io/Card'
 blog8.className = 'project'
 blog8Pic.className = 'projectPic'
 blog8Pic.src = './2024.jpg'
@@ -494,7 +519,8 @@ blog8Header.className = 'blogHeader'
 blog8Header.textContent = `Landing Page`
 blog8Text.textContent = `My first Landing Page`
 
-blog8Card.appendChild(blog8Header)
+blog8Link.appendChild(blog8Header)
+blog8Card.appendChild(blog8Link)
 blog8Card.appendChild(blog8Text)
 blog8.appendChild(blog8Card)
 blog8.appendChild(blog8Pic)
@@ -546,6 +572,7 @@ const blog9 = document.createElement('div')
 const blog9Pic = document.createElement('img')
 const blog9Card = document.createElement('div')
 const blog9Header = document.createElement('h1')
+const blog9Link = document.createElement('a')
 const blog9Text = document.createElement('p')
 
 const project9 = document.createElement('div')
@@ -553,6 +580,7 @@ project9.className = 'project1'
 const info9 = document.createElement('div')
 info9.className = 'info';
 
+blog9Link.href = 'https://Psammystprime.github.io/Card'
 blog9.className = 'project'
 blog9Pic.className = 'projectPic'
 blog9Pic.src = './card.png'
@@ -561,7 +589,8 @@ blog9Header.className = 'blogHeader'
 blog9Header.textContent = `Card`
 blog9Text.textContent = `A business card`
 
-blog9Card.appendChild(blog9Header)
+blog9Link.appendChild(blog9Header)
+blog9Card.appendChild(blog9Link)
 blog9Card.appendChild(blog9Text)
 blog9.appendChild(blog9Card)
 blog9.appendChild(blog9Pic)
@@ -614,6 +643,7 @@ const blog10 = document.createElement('div')
 const blog10Pic = document.createElement('img')
 const blog10Card = document.createElement('div')
 const blog10Header = document.createElement('h1')
+const blog10Link = document.createElement('a')
 const blog10Text = document.createElement('p')
 
 const project10 = document.createElement('div')
@@ -622,6 +652,7 @@ const info10 = document.createElement('div')
 info10.className = 'info';
 
 blog10.className = 'project'
+blog10Link.href = 'https://Psammystprime.github.io/Passenger-Counter'
 blog10Pic.className = 'projectPic'
 blog10Pic.src = './count.png'
 blog10Text.className = 'projectText'
@@ -629,7 +660,8 @@ blog10Header.className = 'blogHeader'
 blog10Header.textContent = `Passenger Counter`
 blog10Text.textContent = `Let's count`
 
-blog10Card.appendChild(blog10Header)
+blog10Link.appendChild(blog10Header)
+blog10Card.appendChild(blog10Link)
 blog10Card.appendChild(blog10Text)
 blog10.appendChild(blog10Card)
 blog10.appendChild(blog10Pic)
