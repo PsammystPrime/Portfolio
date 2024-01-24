@@ -162,9 +162,9 @@ footer{
 
                                             /* Universal Tags */
 p{
-    width: 50vw;
-    color: burlywood;
-    background-color: black;
+    /* width: 50vw; */
+    /* color: burlywood; */
+    /* background-color: black; */
 }
 h3{
     color: brown;
@@ -174,7 +174,7 @@ h3{
 }
 h2{
     color: rgb(19, 194, 107);
-    background-color: black;
+    /* background-color: black; */
     width: min-content;
     padding: 20px;
 }
@@ -185,25 +185,36 @@ h2{
 }
 
                                                                 /* Technical Blogs */
-.blog{
+/* .blog{
     display: flex;
     background-color: aqua;
     width: 80vw;
-    margin: 20px 0 0 30px;
+    margin: 20px 0 0 0px;
     gap: 20px;
     border-radius: 5px;
     padding-left: 5px;
-}
-.blog:hover{
-    background-color: brown;
-    transform: translateX(30px );
-    transition: transform 500ms ease-out;
+} */
+.blog{
+    /* background-color: aqua; */
+    max-width: 80vw;
+    /* display: flex;
+    flex-direction: column; */
 }
 .blogPic{
+    max-height: 300px;
+    max-width: 300px
+    /* align-self: center; */
+}
+.blog:hover{
+    /* background-color: brown; */
+    /* transform: translateX(30px );
+    transition: transform 500ms ease-out; */
+}
+/* .blogPic{
     height:  min-content;
     width: 18vw;
     padding: 30px 0 0 0;
-}
+} */
 
                                                             /* Projects*/  
 .projectsContainer{
@@ -247,12 +258,12 @@ h2{
     transform: translateX(30px );
     transition: transform 500ms ease-out ;
 }
-.projectText{
+/* .projectText{
     width: 35vw;
-}
-.blogHeader{
+} */
+/* .blogHeader{
     width: 35vw;
-}
+} */
 .info{
    background-color: rgb(218, 143, 32); 
     height: min-content; 
