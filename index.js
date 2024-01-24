@@ -15,7 +15,7 @@ home.addEventListener('click', updateHome)
 const mode = document.querySelector('.mode')
 mode.addEventListener('click', ()=>{
     let body = document.body
-    body.classList.toggle('light' )
+    body.classList.toggle('dark' )
 })
 
 

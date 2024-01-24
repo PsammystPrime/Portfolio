@@ -13,14 +13,14 @@ const info = document.createElement('div')
 info.className = 'info';
 
 const blog = document.createElement('div')
-const blogPic = document.createElement('img')
+const projectPic = document.createElement('img')
 const blogCard = document.createElement('div')
 const blogHeader = document.createElement('h1')
 const blogText = document.createElement('p')
 
 blog.className = 'project'
-blogPic.className = 'blogPic'
-blogPic.src = './peoplebg.jpeg'
+projectPic.className = 'projectPic'
+projectPic.src = './peoplebg.jpeg'
 blogText.className = 'projectText'
 blogHeader.className = 'blogHeader'
 blogHeader.textContent = `Staffood Restaurant`
@@ -29,7 +29,7 @@ blogText.textContent = `A simple restaurant page for delicacies`
 blogCard.appendChild(blogHeader)
 blogCard.appendChild(blogText)
 blog.appendChild(blogCard)
-blog.appendChild(blogPic)
+blog.appendChild(projectPic)
 
 
 const blogObjective = document.createElement('div')
@@ -86,7 +86,7 @@ const blog2Card = document.createElement('div')
 const blog2Header = document.createElement('h1')
 const blog2Text = document.createElement('p')
 blog2.className = 'project'
-blog2Pic.className = 'blogPic'
+blog2Pic.className = 'projectPic'
 blog2Pic.src = './weather.png'
 blog2Text.className = 'projectText'
 blog2Header.className = 'blogHeader'
@@ -152,7 +152,7 @@ const blog3Header = document.createElement('h1')
 const blog3Text = document.createElement('p')
 
 blog3.className = 'project'
-blog3Pic.className = 'blogPic'
+blog3Pic.className = 'projectPic'
 blog3Pic.src = './calc.png'
 blog3Text.className = 'projectText'
 blog3Header.className = 'blogHeader'
@@ -219,7 +219,7 @@ const info4 = document.createElement('div')
 info4.className = 'info';
 
 blog4.className = 'project'
-blog4Pic.className = 'blogPic'
+blog4Pic.className = 'projectPic'
 blog4Pic.src = './slider.png'
 blog4Text.className = 'projectText'
 blog4Header.className = 'blogHeader'
@@ -286,7 +286,7 @@ const info5 = document.createElement('div')
 info5.className = 'info';
 
 blog5.className = 'project'
-blog5Pic.className = 'blogPic'
+blog5Pic.className = 'projectPic'
 blog5Pic.src = './admin.png'
 blog5Text.className = 'projectText'
 blog5Header.className = 'blogHeader'
@@ -353,7 +353,7 @@ const info6 = document.createElement('div')
 info6.className = 'info';
 
 blog6.className = 'project'
-blog6Pic.className = 'blogPic'
+blog6Pic.className = 'projectPic'
 blog6Pic.src = './list.png'
 blog6Text.className = 'projectText'
 blog6Header.className = 'blogHeader'
@@ -420,7 +420,7 @@ const info7 = document.createElement('div')
 info7.className = 'info';
 
 blog7.className = 'project'
-blog7Pic.className = 'blogPic'
+blog7Pic.className = 'projectPic'
 blog7Pic.src = './library.png'
 blog7Text.className = 'projectText'
 blog7Header.className = 'blogHeader'
@@ -487,7 +487,7 @@ const info8 = document.createElement('div')
 info8.className = 'info';
 
 blog8.className = 'project'
-blog8Pic.className = 'blogPic'
+blog8Pic.className = 'projectPic'
 blog8Pic.src = './2024.jpg'
 blog8Text.className = 'projectText'
 blog8Header.className = 'blogHeader'
@@ -554,7 +554,7 @@ const info9 = document.createElement('div')
 info9.className = 'info';
 
 blog9.className = 'project'
-blog9Pic.className = 'blogPic'
+blog9Pic.className = 'projectPic'
 blog9Pic.src = './card.png'
 blog9Text.className = 'projectText'
 blog9Header.className = 'blogHeader'
@@ -622,7 +622,7 @@ const info10 = document.createElement('div')
 info10.className = 'info';
 
 blog10.className = 'project'
-blog10Pic.className = 'blogPic'
+blog10Pic.className = 'projectPic'
 blog10Pic.src = './count.png'
 blog10Text.className = 'projectText'
 blog10Header.className = 'blogHeader'

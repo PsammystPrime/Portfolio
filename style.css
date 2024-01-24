@@ -2,7 +2,7 @@ body{
     background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.light{
+.dark{
     background-color: black;
 }
 .container{
@@ -31,11 +31,12 @@ body{
 .mode{
     width: 40px;
     height: 40px;
+    border-radius: 50%;
     transform: rotate(150deg);
 }
 .mode:hover{
     background-color: red;
-    border-radius: 50%;
+    
     color: wheat;
 }
 .headButtons > button{
@@ -202,6 +203,10 @@ p{
     /* color: burlywood; */
     /* background-color: black; */
 }
+h1{
+    
+    
+}
 h3{
     color: brown;
     font-style: oblique;
@@ -282,6 +287,11 @@ h2{
         background-color: rgb(97, 79, 79);
     }
 }
+.projectPic{
+    max-height: 300px;
+    max-width: 300px
+    /* align-self: center; */
+}
 .projects{
    /* height: 543px; */
    /* overflow-y: scroll; */
@@ -310,25 +320,24 @@ h2{
 /* .blogHeader{
     width: 35vw;
 } */
-.info{
-   /* background-color: rgb(218, 143, 32);  */
-    /* height: min-content; 
-    max-width:  30%; 
-    min-width: min-content; */
-    /* border-radius: 5px;
-    margin: 20px 0 0 30px;
-    padding: 10px; */
-}
-.info:hover{
-    /* transform: translateX(-30px );
-    transition: transform 500ms ease-out; */
-}
+
 .objectiveText{
     width: fit-content;
 }
 
-
-
+                                                                    /*Dark Mode*/
+.dark p {
+    color: aliceblue;
+}
+.dark ul{
+    color: chocolate;
+}
+.dark h1{
+    color: aliceblue;
+}
+.dark .mode{
+    background-color: aliceblue;
+}
 /* #admin{
     margin-top: 10px;
 }
