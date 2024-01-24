@@ -84,17 +84,19 @@ body{
 
 .about{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
+    /* align-items: center;
+    justify-content: center; */
+    /* gap: 50px; */
     flex-wrap: wrap;
     padding-top: 50px;
 }
 .mainImg{
     margin-top: 30px;
-    height: 40vh;
+    max-height: 40vh;
+    max-width: 40vh;
+    align-self: center;
     border-radius: 80px;
-    background-color: 5px black;
+    /* background-color: 5px black; */
     padding: 5px;
     animation-name: changeColor;
     animation-duration: 2s;
@@ -110,9 +112,9 @@ body{
     }
 }
 .textArea{
-    background-color: black;
+    /* background-color: black;
     padding: 10px;
-    margin: 10px;
+    margin: 10px; */
 }
 
                                                             /* Email */
@@ -180,7 +182,7 @@ h2{
     color: rgb(19, 194, 107);
     /* background-color: black; */
     width: min-content;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .display{
