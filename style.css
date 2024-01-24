@@ -166,7 +166,11 @@ footer > button:hover{
 #gh-logo{
     width: 40px;
     height: 40px;
-    background-color: aliceblue;
+    border-radius: 70%;
+    /* border: 5px solid black; */
+}
+.dark #gh-logo{
+    background-color: rgb(198, 207, 216);
 }
 
                                             /* Universal Tags */
