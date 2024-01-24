@@ -10,7 +10,10 @@ body{
     border-radius: 5px;
 }
 /* .displayMain{
-    background-image: url(./113.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 } */
 
                                                     /*Header Nav Buttons*/
@@ -126,10 +129,16 @@ body{
 }
 
                                                             /* Email */
+.credentials{
+    /* display: flex;     */
+    /* background-color: rebeccapurple; */
+    
+    /* justify-content: space-between; */
+}
 .emailForm{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    
 }
 form{
     display: flex;
@@ -139,6 +148,11 @@ form{
     padding: 20px 40px 20px 40px;
     border-radius: 10px;
 }
+input{
+    max-width: 360px;
+
+    background-color: aqua;
+}
 .send{
     margin-top: 3px;
     align-self: flex-start;
@@ -147,7 +161,15 @@ form{
 .send:hover{
     background-color: aqua;
 }
-
+#download-icon{
+    width: 40px;
+    height: 40px;
+}
+.download{
+    display: flex;
+    align-items: center;
+   
+}
 
                                                     /*footer*/
 footer{
@@ -185,6 +207,12 @@ h3{
     font-style: oblique;
     font-weight: bolder;
     font-size: x-large;
+}
+h4{
+    font-size: xx-large;
+}
+h6{
+    width: 100px;
 }
 h2{
     color: rgb(19, 194, 107);
