@@ -30,8 +30,8 @@ body{
 .navButtons{
     display: flex;
     gap: 20px;
-    justify-content: flex-end;
-    padding: 15px 50px 0 0;
+    /* justify-content: flex-end; */
+    padding: 0 50px 0 0;
 }
 .navButtons > button{
     background-color: goldenrod;
