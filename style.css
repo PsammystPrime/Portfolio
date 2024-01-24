@@ -81,19 +81,24 @@ body{
 }
 
                                                             /* About */
-
+.displayMain{
+    gap: 30px;
+}
 .about{
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
-    /* gap: 50px; */
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
     flex-wrap: wrap;
     padding-top: 50px;
+    margin-bottom: 30px;
 }
 .mainImg{
     margin-top: 30px;
-    max-height: 40vh;
-    max-width: 40vh;
+    min-height: 230px;
+    min-width: 250px;
+    max-height: 500px;
+    max-width: 500px;
     align-self: center;
     border-radius: 80px;
     /* background-color: 5px black; */
@@ -112,6 +117,9 @@ body{
     }
 }
 .textArea{
+    /* padding-top: 50px; */
+    max-width: 300px;
+
     /* background-color: black;
     padding: 10px;
     margin: 10px; */
@@ -127,7 +135,7 @@ form{
     display: flex;
     flex-direction: column;
     background-color: brown;
-    /* width: 20vw; */
+    max-width: 360px;
     padding: 20px 40px 20px 40px;
     border-radius: 10px;
 }
