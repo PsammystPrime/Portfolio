@@ -1,5 +1,4 @@
 body{
-    background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .dark{
@@ -9,19 +8,12 @@ body{
     margin: 10px;
     border-radius: 5px;
 }
-/* .displayMain{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
 
                                                     /*Header Nav Buttons*/
 .headButtons{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* background-color: beige; */
 }
 .modeButtons{
     display: flex;
@@ -49,7 +41,6 @@ body{
 .navButtons{
     display: flex;
     gap: 20px;
-    /* justify-content: flex-end; */
     padding: 0 50px 0 0;
     max-height: fit-content;
 }
@@ -105,7 +96,6 @@ body{
     max-width: 500px;
     align-self: center;
     border-radius: 80px;
-    /* background-color: 5px black; */
     padding: 5px;
     animation-name: changeColor;
     animation-duration: 2s;
@@ -121,21 +111,10 @@ body{
     }
 }
 .textArea{
-    /* padding-top: 50px; */
     max-width: 300px;
-
-    /* background-color: black;
-    padding: 10px;
-    margin: 10px; */
 }
 
                                                             /* Email */
-.credentials{
-    /* display: flex;     */
-    /* background-color: rebeccapurple; */
-    
-    /* justify-content: space-between; */
-}
 .emailForm{
     display: flex;
     flex-direction: column;
@@ -151,7 +130,6 @@ form{
 }
 input{
     max-width: 360px;
-
     background-color: aqua;
 }
 .send{
@@ -169,7 +147,6 @@ input{
 .download{
     display: flex;
     align-items: center;
-   
 }
 
                                                     /*footer*/
@@ -178,11 +155,6 @@ footer{
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
-   /*  flex-wrap: wrap;
-    
-    padding: 5px 0 15px 30px;
-    background-color: aliceblue;
-    align-items: center; */
 }
 footer > button{
     background-color: darkolivegreen;
@@ -198,14 +170,13 @@ footer > button:hover{
 }
 
                                             /* Universal Tags */
-p{
-    /* width: 50vw; */
-    /* color: burlywood; */
-    /* background-color: black; */
-}
 h1{
-    
-    
+    font-style: oblique;
+    text-decoration: underline;
+}
+h2{
+    color: rgb(19, 194, 107);
+    width: min-content;
 }
 h3{
     color: brown;
@@ -219,50 +190,28 @@ h4{
 h6{
     width: 100px;
 }
-h2{
-    color: rgb(19, 194, 107);
-    /* background-color: black; */
-    width: min-content;
-    /* padding: 20px; */
-}
-
 .display{
     height: 50%;
     margin-bottom: 20px;
 }
 
                                                                 /* Technical Blogs */
-/* .blog{
-    display: flex;
-    background-color: aqua;
-    width: 80vw;
-    margin: 20px 0 0 0px;
-    gap: 20px;
-    border-radius: 5px;
-    padding-left: 5px;
-} */
+
 .blog{
-    /* background-color: aqua; */
     max-width: 80vw;
-    /* display: flex;
-    flex-direction: column; */
+    overflow: hidden;
+    border-radius: 5px;
+    
 }
 .blogPic{
     max-height: 300px;
-    max-width: 300px
-    /* align-self: center; */
+    max-width: 300px;
 }
 .blog:hover{
-    /* background-color: brown; */
-    /* transform: translateX(30px );
-    transition: transform 500ms ease-out; */
+    background-color: brown;
+    transform: translateX(5px);
+    transition: transform 500ms ease-out;
 }
-/* .blogPic{
-    height:  min-content;
-    width: 18vw;
-    padding: 30px 0 0 0;
-} */
-
                                                             /* Projects*/  
 .projectsContainer{
      display: flex;
@@ -270,18 +219,18 @@ h2{
      align-items: center;
      justify-content: center;
      padding-left: 10px;
-   /* flex-wrap: wrap; */
-    /* background-color: black; */
-    /* height: 543px; */
-    /* animation-name: changeColor; */
-    animation-duration: 20s;
+     overflow: hidden;
+}                                                            
+.dark .projectsContainer{
+    animation-name: changeColor;
+    animation-duration: 10s;
     animation-delay: 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 @keyframes changeColor{
     form{
-        background-color: rgb(235, 191, 126);
+        background-color: rgb(97, 79, 79);
     }
     to{
         background-color: rgb(97, 79, 79);
@@ -289,38 +238,10 @@ h2{
 }
 .projectPic{
     max-height: 300px;
-    max-width: 300px
-    /* align-self: center; */
-}
-.projects{
-   /* height: 543px; */
-   /* overflow-y: scroll; */
-}            
-.project1{
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; */
-}                                                                                                           
-.project{
-    /* display: flex; */
-    /* background-color: aqua; */
-    /* margin: 20px 0 0 30px;
-    gap: 20px;
-    border-radius: 5px;
-    padding: 5px; */
-}
-.project:hover {
-    /* background-color: brown; */
-    /* transform: translateX(30px );
-    transition: transform 500ms ease-out ; */
-}
-/* .projectText{
-    width: 35vw;
-} */
-/* .blogHeader{
-    width: 35vw;
-} */
-
+    max-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}          
 .objectiveText{
     width: fit-content;
 }
@@ -338,29 +259,6 @@ h2{
 .dark .mode{
     background-color: aliceblue;
 }
-/* #admin{
-    margin-top: 10px;
-}
-#inputCard{
-    height: 200px;
-    width: 400px;
-    background-color: chartreuse;
-    gap: 20px;
-}
-#cardDetails{
-display: flex;
-}
-#cardHeader{
-display: flex;
-}
-#cardImage{
-    display: flex;
-}
-#cardButton{
-    width: min-content;
-}
-label{
-    width: min-content;
-} */
+
 
 
