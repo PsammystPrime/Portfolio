@@ -19,7 +19,7 @@ const blogHeader = document.createElement('h1')
 const blogLink = document.createElement('a')
 const blogText = document.createElement('p')
 
-blogLink.href = 'https://Psammystprime.github.io/Card'
+blogLink.href = 'https://Psammystprime.github.io/Project-Restaurant-Page'
 blog.className = 'project'
 projectPic.className = 'projectPic'
 projectPic.src = './peoplebg.jpeg'
@@ -90,7 +90,7 @@ const blog2Header = document.createElement('h1')
 const blog2Link = document.createElement('a')
 const blog2Text = document.createElement('p')
 
-blog2Link.href = 'https://Psammystprime.github.io/Card'
+blog2Link.href = 'https://Psammystprime.github.io/Weather-App'
 blog2.className = 'project'
 blog2Pic.className = 'projectPic'
 blog2Pic.src = './weather.png'
@@ -160,7 +160,7 @@ const blog3Header = document.createElement('h1')
 const blog3Link = document.createElement('a')
 const blog3Text = document.createElement('p')
 
-blog3Link.href = 'https://Psammystprime.github.io/Card'
+blog3Link.href = 'https://Psammystprime.github.io/Calculator'
 blog3.className = 'project'
 blog3Pic.className = 'projectPic'
 blog3Pic.src = './calc.png'
@@ -230,7 +230,7 @@ project4.className = 'project1'
 const info4 = document.createElement('div')
 info4.className = 'info';
 
-blog4Link.href = 'https://Psammystprime.github.io/Card'
+blog4Link.href = 'https://Psammystprime.github.io/image-slider'
 blog4.className = 'project'
 blog4Pic.className = 'projectPic'
 blog4Pic.src = './slider.png'
@@ -300,7 +300,7 @@ project5.className = 'project1'
 const info5 = document.createElement('div')
 info5.className = 'info';
 
-blog5Link.href = 'https://Psammystprime.github.io/Card'
+blog5Link.href = 'https://Psammystprime.github.io/Project-Admin-Dashboard'
 blog5.className = 'project'
 blog5Pic.className = 'projectPic'
 blog5Pic.src = './admin.png'
@@ -370,7 +370,7 @@ project6.className = 'project1'
 const info6 = document.createElement('div')
 info6.className = 'info';
 
-blog6Link.href = 'https://Psammystprime.github.io/Card'
+blog6Link.href = 'https://Psammystprime.github.io/To-do-list'
 blog6.className = 'project'
 blog6Pic.className = 'projectPic'
 blog6Pic.src = './list.png'
@@ -440,7 +440,7 @@ project7.className = 'project1'
 const info7 = document.createElement('div')
 info7.className = 'info';
 
-blog7Link.href = 'https://Psammystprime.github.io/Card'
+blog7Link.href = 'https://Psammystprime.github.io/Project-Library'
 blog7.className = 'project'
 blog7Pic.className = 'projectPic'
 blog7Pic.src = './library.png'
@@ -510,7 +510,7 @@ project8.className = 'project1'
 const info8 = document.createElement('div')
 info8.className = 'info';
 
-blog8Link.href = 'https://Psammystprime.github.io/Card'
+blog8Link.href = 'https://Psammystprime.github.io/Landing-Page'
 blog8.className = 'project'
 blog8Pic.className = 'projectPic'
 blog8Pic.src = './2024.jpg'

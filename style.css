@@ -197,16 +197,27 @@ h6{
 }
 
                                                                 /* Technical Blogs */
-
+.blogContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .blog{
-    max-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: min-content;
+    max-width: 700px;
     overflow: hidden;
     border-radius: 5px;
-    
+    padding-left: 3px;
 }
 .blogPic{
-    max-height: 300px;
-    max-width: 300px;
+    align-self: center;
+    /* max-width: 700px; */
+    max-height: 350px;
+    max-width: 330px;
 }
 .blog:hover{
     background-color: brown;
@@ -240,8 +251,6 @@ h6{
 .projectPic{
     max-height: 300px;
     max-width: 300px;
-    margin-right: auto;
-    margin-left: auto;
 }          
 .objectiveText{
     width: fit-content;
