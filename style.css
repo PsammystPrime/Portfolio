@@ -1,5 +1,5 @@
 body{
-    background-color: red;
+    background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .light{
@@ -9,18 +9,22 @@ body{
     margin: 10px;
     border-radius: 5px;
 }
-.displayMain{
+/* .displayMain{
     background-image: url(./113.png);
-}
+} */
 
                                                     /*Header Nav Buttons*/
 .headButtons{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     /* background-color: beige; */
 }
+.modeButtons{
+    display: flex;
+    gap: 10px;
+}
 .headButtons > button{
-
     background-color: goldenrod;
 }
 .headButtons > button:hover{
@@ -32,6 +36,7 @@ body{
     gap: 20px;
     /* justify-content: flex-end; */
     padding: 0 50px 0 0;
+    max-height: fit-content;
 }
 .navButtons > button{
     background-color: goldenrod;
