@@ -2,6 +2,9 @@ const home = document.querySelector('#home');
 const projects = document.querySelector('#projects');
 const blogs = document.querySelector('#blogs');
 const admin = document.querySelector('#admin');
+const submit = document.querySelector('.send')
+const status = document.querySelector('.status')
+const message = document.querySelector('.message')
 
 
 import { updateBlogs } from "./blogs.js";
@@ -18,6 +21,13 @@ mode.addEventListener('click', ()=>{
     body.classList.toggle('dark' )
 })
 
+submit.addEventListener('click', (e)=>{
+    e.preventDefault()
+    status.textContent = '';
+    if(message.value!==''){
+    status.textContent = 'Message not Sent'
+    }
+})
 
 
 // function updateHome(){
