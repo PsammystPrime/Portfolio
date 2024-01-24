@@ -141,9 +141,12 @@ form{
 
                                                     /*footer*/
 footer{
-    /* display: flex;
-    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
+   /*  flex-wrap: wrap;
+    
     padding: 5px 0 15px 30px;
     background-color: aliceblue;
     align-items: center; */
