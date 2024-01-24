@@ -119,14 +119,14 @@ body{
 .emailForm{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 }
 form{
     display: flex;
     flex-direction: column;
     background-color: brown;
-    width: 20vw;
-    padding: 20px 60px 20px 60px;
+    /* width: 20vw; */
+    padding: 20px 40px 20px 40px;
     border-radius: 10px;
 }
 .send{
