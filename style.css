@@ -260,8 +260,12 @@ h2{
 
                                                             /* Projects*/  
 .projectsContainer{
-    /* display: flex;
-    flex-wrap: wrap; */
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding-left: 10px;
+   /* flex-wrap: wrap; */
     /* background-color: black; */
     /* height: 543px; */
     /* animation-name: changeColor; */
