@@ -46,6 +46,7 @@ body{
 }
 .navButtons > button{
     background-color: goldenrod;
+    border-radius: 30px;
 }
 .navButtons > button:hover{
     background-color: thistle;
@@ -113,14 +114,36 @@ body{
 .textArea{
     max-width: 300px;
 }
+.contactPara{
+    max-width: 700px;
+    margin-left: 10px;
+}
 
                                                             /* Email */
-.emailForm{
+/* .emailForm{
     display: flex;
     flex-direction: column;
     
+} */
+.credentials{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 410px;
 }
-form{
+.dark .credentials{
+    background-color: green;
+}
+.credentials:hover{
+    height: 120px;background-color: rgb(182, 217, 248);
+}
+.email{
+    width: 120px;
+    
+}
+/* form{
     display: flex;
     flex-direction: column;
     background-color: brown;
@@ -139,15 +162,17 @@ input{
 }
 .send:hover{
     background-color: aqua;
-}
+} */
 #download-icon{
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
 }
 .download{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    padding-top: -20px;
 }
+
 
                                                     /*footer*/
 footer{
@@ -181,7 +206,7 @@ h1{
 }
 h2{
     color: rgb(19, 194, 107);
-    width: min-content;
+    /* width: min-content; */
 }
 h3{
     color: brown;
@@ -199,7 +224,12 @@ h6{
     height: 50%;
     margin-bottom: 20px;
 }
-
+.technologies>ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style-type: none;
+}
                                                                 /* Technical Blogs */
 .blogContainer{
     display: flex;
