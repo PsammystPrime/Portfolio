@@ -19,7 +19,7 @@ const blogHeader = document.createElement('h1')
 const blogLink = document.createElement('a')
 const blogText = document.createElement('p')
 
-blogLink.href = 'https://Psammystprime.github.io/Project-Restaurant-Page'
+blogLink.href = ''
 blog.className = 'project'
 projectPic.className = 'projectPic'
 projectPic.src = './peoplebg.jpeg'
@@ -307,7 +307,7 @@ blog5Pic.src = './admin.png'
 blog5Text.className = 'projectText'
 blog5Header.className = 'blogHeader'
 blog5Header.textContent = `Admin Blog`
-blog5Text.textContent = `A Admin dashboard for a blog website`
+blog5Text.textContent = `An Admin dashboard for a blog website`
 
 blog5Link.appendChild(blog5Header)
 blog5Card.appendChild(blog5Link)
@@ -370,7 +370,7 @@ project6.className = 'project1'
 const info6 = document.createElement('div')
 info6.className = 'info';
 
-blog6Link.href = 'https://Psammystprime.github.io/To-do-list'
+blog6Link.href = ''
 blog6.className = 'project'
 blog6Pic.className = 'projectPic'
 blog6Pic.src = './list.png'
@@ -440,7 +440,7 @@ project7.className = 'project1'
 const info7 = document.createElement('div')
 info7.className = 'info';
 
-blog7Link.href = 'https://Psammystprime.github.io/Project-Library'
+blog7Link.href = ''
 blog7.className = 'project'
 blog7Pic.className = 'projectPic'
 blog7Pic.src = './library.png'
