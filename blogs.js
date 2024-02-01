@@ -67,7 +67,6 @@ blog3.appendChild(blog3Pic)
 blog3.appendChild(blog3Text)
 
 
-
 const blog4 = document.createElement('div')
 const blog4Pic = document.createElement('img')
 const blog4Link = document.createElement('a')
@@ -86,7 +85,6 @@ blog4Link.appendChild(blog4Header)
 blog4.appendChild(blog4Link)
 blog4.appendChild(blog4Pic)
 blog4.appendChild(blog4Text)
-
 
 
 const blog5 = document.createElement('div')
@@ -110,10 +108,30 @@ blog5.appendChild(blog5Pic)
 blog5.appendChild(blog5Text)
 
 
+const blog6 = document.createElement('div')
+const blog6Pic = document.createElement('img')
+const blog6Link = document.createElement('a')
+const blog6Header = document.createElement('h1')
+const blog6Text = document.createElement('p')
+blog6.className = 'blog'
+blog6Link.href = 'https://medium.com/@psammystprime/securing-the-client-side-for-your-web-applications-2fbbd222e6fa'
+blog6Pic.className = 'blogPic'
+blog6Pic.src = './securinglogo.webp'
+blog6Text.className = 'blogText'
+blog6Header.className = 'blogHeader'
+blog6Header.textContent = `Securing the Client-Side for your Web Applications`
+blog6Text.textContent = `A quick guide to understanding cyber security threats on the front end of your web applications and measures against such modern-day attacks.`
+blog6Link.appendChild(blog6Header)
+blog6.appendChild(blog6Link)
+blog6.appendChild(blog6Pic)
+blog6.appendChild(blog6Text)
+
+
 function updateBlogs (){
     display.textContent = ''
 
     blogContainer.appendChild(blog)
+    blogContainer.appendChild(blog6)
     blogContainer.appendChild(blog2)
     blogContainer.appendChild(blog3)
     blogContainer.appendChild(blog4)
