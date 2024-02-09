@@ -127,10 +127,29 @@ blog6.appendChild(blog6Pic)
 blog6.appendChild(blog6Text)
 
 
+const blog7 = document.createElement('div')
+const blog7Pic = document.createElement('img')
+const blog7Link = document.createElement('a')
+const blog7Header = document.createElement('h1')
+const blog7Text = document.createElement('p')
+blog7.className = 'blog'
+blog7Link.href = 'https://rb.gy/ox49vk'
+blog7Pic.className = 'blogPic'
+blog7Pic.src = './writing.png'
+blog7Text.className = 'blogText'
+blog7Header.className = 'blogHeader'
+blog7Header.textContent = `Writing: Getting The Best Audience For Your Technical Content.`
+blog7Text.textContent = `Writing is a magnet; it either repels or attracts. Are you into technical writing? Get to know how to attract your audience.`
+blog7Link.appendChild(blog7Header)
+blog7.appendChild(blog7Link)
+blog7.appendChild(blog7Pic)
+blog7.appendChild(blog7Text)
+
 function updateBlogs (){
     display.textContent = ''
 
     blogContainer.appendChild(blog)
+    blogContainer.appendChild(blog7)
     blogContainer.appendChild(blog6)
     blogContainer.appendChild(blog2)
     blogContainer.appendChild(blog3)
