@@ -5,12 +5,9 @@ const projects = document.createElement('div')
 projects.className = 'projects';
 
 projectsContainer.appendChild(projects)
-
-//Staffood Restaurant
+// blog, projectPic, blogCard, blogHeader, blogLink, blogText
 const project1 = document.createElement('div')
 project1.className = 'project1'
-const info = document.createElement('div')
-info.className = 'info';
 
 const blog = document.createElement('div')
 const projectPic = document.createElement('img')
@@ -19,20 +16,62 @@ const blogHeader = document.createElement('h1')
 const blogLink = document.createElement('a')
 const blogText = document.createElement('p')
 
-blogLink.href = ''
 blog.className = 'project'
 projectPic.className = 'projectPic'
 projectPic.src = './peoplebg.jpeg'
 blogText.className = 'projectText'
 blogHeader.className = 'blogHeader'
-blogHeader.textContent = `Staffood Restaurant`
-blogText.textContent = `A simple restaurant page for delicacies`
 
 blogLink.appendChild(blogHeader)
 blogCard.appendChild(blogLink)
 blogCard.appendChild(blogText)
 blog.appendChild(blogCard)
 blog.appendChild(projectPic)
+
+project1.appendChild(blog)
+projects.appendChild(project1)
+
+function CreateProjects(header,text,link){
+
+this.blogLink = link
+// this.projectPic = pic
+this.blogHeader = header
+this.blogText = text
+blogHeader.textContent = header
+blogText.textContent = text
+// projectPic.alt = pic
+blogLink.href = link
+}
+const goo = new CreateProjects('hey','too','gee.com')
+const goo2 = new CreateProjects('hey','too','null','gee')
+console.log(goo, goo2)
+//Staffood Restaurant
+// const project1 = document.createElement('div')
+// project1.className = 'project1'
+const info = document.createElement('div')
+info.className = 'info';
+
+// const blog = document.createElement('div')
+// const projectPic = document.createElement('img')
+// const blogCard = document.createElement('div')
+// const blogHeader = document.createElement('h1')
+// const blogLink = document.createElement('a')
+// const blogText = document.createElement('p')
+
+// blogLink.href = ''
+// blog.className = 'project'
+// projectPic.className = 'projectPic'
+// projectPic.src = './peoplebg.jpeg'
+// blogText.className = 'projectText'
+// blogHeader.className = 'blogHeader'
+// blogHeader.textContent = `Staffood Restaurant`
+// blogText.textContent = `A simple restaurant page for delicacies`
+
+// blogLink.appendChild(blogHeader)
+// blogCard.appendChild(blogLink)
+// blogCard.appendChild(blogText)
+// blog.appendChild(blogCard)
+// blog.appendChild(projectPic)
 
 
 const blogObjective = document.createElement('div')
@@ -73,9 +112,9 @@ blogStack.appendChild(stack)
     info.appendChild(blogObjective)
     info.appendChild(blogStack)
 
-project1.appendChild(blog)
+// project1.appendChild(blog)
 project1.appendChild(info)
-projects.appendChild(project1)
+// projects.appendChild(project1)
 
 //Weather App
 const project2 = document.createElement('div')
@@ -711,7 +750,8 @@ projects.appendChild(project10)
 
 function UpdateProjects (){
     display.textContent = '';
-    display.appendChild(projectsContainer)
+    display.textContent = 'Tab under maintainance';
+    // display.appendChild(projectsContainer)
 
 }
 
