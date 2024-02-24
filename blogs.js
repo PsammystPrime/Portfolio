@@ -159,5 +159,4 @@ function updateBlogs (){
 
 }
 
-
 export{updateBlogs}
