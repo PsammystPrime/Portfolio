@@ -42,17 +42,19 @@ function updateBlogs(){
         const blog = document.createElement('div')
         const blogPic = document.createElement('img')
         const blogHeader = document.createElement('h1')
+        const blogLink = document.createElement('a')
         const blogText = document.createElement('p')
 
         blog.className = 'blog'
         blogPic.className = 'blogPic'
         blogText.className = 'blogText'
         blogHeader.className = 'blogHeader'
-        blog.href = 'www.blog.com'
+        blogLink.href = item.link
+        blogLink.textContent = item.title
         blogPic.src = `./${item.pic}`
-        blogHeader.textContent = item.title
         blogText.textContent = item.about
 
+        blogHeader.appendChild(blogLink)
         blog.appendChild(blogHeader)
         blog.appendChild(blogPic)
         blog.appendChild(blogText)        
