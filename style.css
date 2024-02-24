@@ -1,19 +1,35 @@
 body{
-    background-color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.dark{
+    background-color: black;
 }
 .container{
     margin: 10px;
     border-radius: 5px;
-}
-.displayMain{
-    background-image: url(./113.png);
 }
 
                                                     /*Header Nav Buttons*/
 .headButtons{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+.modeButtons{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+.mode{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transform: rotate(150deg);
+}
+.mode:hover{
+    background-color: red;
+    
+    color: wheat;
 }
 .headButtons > button{
     background-color: goldenrod;
@@ -25,44 +41,62 @@ body{
 .navButtons{
     display: flex;
     gap: 20px;
-    justify-content: flex-end;
-    padding: 15px 50px 0 0;
+    padding: 0 50px 0 0;
+    max-height: fit-content;
 }
 .navButtons > button{
     background-color: goldenrod;
+    border-radius: 30px;
 }
 .navButtons > button:hover{
     background-color: thistle;
     color: blue;
 }
-.socialButtons{
-    display: flex;
-    gap: 20px;
-    padding: 0 0 15px 30px;
+
+#admin,#home{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 50%;
+    animation-name: bgColor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
-.socialButtons > button{
-    background-color: darkolivegreen;
+@keyframes bgColor{
+    form{
+        background-color: blue;
+    }
+    to{
+        background-color: red;
+    }
 }
-.socialButtons > button:hover{
-    background-color: thistle;
-    color: blue;
+#admin:hover{
+    transform: rotate(360deg);
+    transition: all 2s ease-in-out ;
 }
 
                                                             /* About */
-
+.displayMain{
+    gap: 30px;
+}
 .about{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
     flex-wrap: wrap;
     padding-top: 50px;
+    margin-bottom: 30px;
 }
 .mainImg{
     margin-top: 30px;
-    height: 40vh;
+    min-height: 230px;
+    min-width: 250px;
+    max-height: 500px;
+    max-width: 500px;
+    align-self: center;
     border-radius: 80px;
-    background-color: 5px black;
     padding: 5px;
     animation-name: changeColor;
     animation-duration: 2s;
@@ -78,24 +112,48 @@ body{
     }
 }
 .textArea{
-    background-color: black;
-    padding: 10px;
-    margin: 10px;
+    max-width: 300px;
+}
+.contactPara{
+    max-width: 700px;
+    margin-left: 10px;
 }
 
                                                             /* Email */
-.emailForm{
+/* .emailForm{
     display: flex;
     flex-direction: column;
+    
+} */
+.credentials{
+    
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    max-width: 410px;
 }
-form{
+.dark .credentials{
+    background-color: green;
+}
+.credentials:hover{
+    height: 120px;background-color: rgb(182, 217, 248);
+}
+.email{
+    width: 120px;
+    
+}
+/* form{
     display: flex;
     flex-direction: column;
     background-color: brown;
-    width: 20vw;
-    padding: 20px 60px 20px 60px;
+    max-width: 360px;
+    padding: 20px 40px 20px 40px;
     border-radius: 10px;
+}
+input{
+    max-width: 360px;
+    background-color: aqua;
 }
 .send{
     margin-top: 3px;
@@ -104,13 +162,51 @@ form{
 }
 .send:hover{
     background-color: aqua;
+} */
+#download-icon{
+    width: 80px;
+    height: 80px;
+}
+.download{
+    display: flex;
+    align-items: flex-start;
+    padding-top: -20px;
+}
+
+
+                                                    /*footer*/
+footer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+footer > button{
+    background-color: darkolivegreen;
+}
+footer > button:hover{
+    background-color: thistle;
+    color: blue;
+}                                                    
+#gh-logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 70%;
+    /* border: 5px solid black; */
+}
+.dark #gh-logo{
+    background-color: rgb(198, 207, 216);
 }
 
                                             /* Universal Tags */
-p{
-    width: 50vw;
-    color: burlywood;
-    background-color: black;
+h1{
+    font-style: oblique;
+    text-decoration: underline;
+    color: black;
+}
+h2{
+    color: rgb(19, 194, 107);
+    /* width: min-content; */
 }
 h3{
     color: brown;
@@ -118,129 +214,95 @@ h3{
     font-weight: bolder;
     font-size: x-large;
 }
-h2{
-    color: rgb(19, 194, 107);
-    background-color: black;
-    width: min-content;
-    padding: 20px;
+h4{
+    font-size: xx-large;
 }
-
+h6{
+    width: 100px;
+}
 .display{
     height: 50%;
     margin-bottom: 20px;
 }
-
+.technologies>ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style-type: none;
+}
                                                                 /* Technical Blogs */
 .blogContainer{
-    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .blog{
     display: flex;
-    background-color: aqua;
-    width: 80vw;
-    margin: 20px 0 0 30px;
-    gap: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: min-content;
+    max-width: 700px;
+    overflow: hidden;
     border-radius: 5px;
-    padding-left: 5px;
+    padding-left: 3px;
+}
+.blogPic{
+    align-self: center;
+    /* max-width: 700px; */
+    max-height: 350px;
+    max-width: 330px;
 }
 .blog:hover{
     background-color: brown;
-    transform: translateX(30px );
+    transform: translateX(5px);
     transition: transform 500ms ease-out;
 }
-.blogPic{
-    height:  min-content;
-    width: 18vw;
-    padding: 30px 0 0 0;
-}
-
                                                             /* Projects*/  
 .projectsContainer{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: black;
-    height: 543px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding-left: 10px;
+     overflow: hidden;
+}                                                            
+.dark .projectsContainer{
     animation-name: changeColor;
-    animation-duration: 20s;
+    animation-duration: 10s;
     animation-delay: 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 @keyframes changeColor{
     form{
-        background-color: rgb(235, 191, 126);
+        background-color: rgb(97, 79, 79);
     }
     to{
         background-color: rgb(97, 79, 79);
     }
 }
-.projects{
-   height: 543px;
-   overflow-y: scroll;
-}            
-.project1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}                                                                                                           
-.project{
-    display: flex;
-    background-color: aqua;
-    margin: 20px 0 0 30px;
-    gap: 20px;
-    border-radius: 5px;
-    padding: 5px;
-}
-.project:hover {
-    background-color: brown;
-    transform: translateX(30px );
-    transition: transform 500ms ease-out ;
-}
-.projectText{
-    width: 35vw;
-}
-.blogHeader{
-    width: 35vw;
-}
-.info{
-   background-color: rgb(218, 143, 32); 
-    height: min-content; 
-    max-width:  30%; 
-    min-width: min-content;
-    border-radius: 5px;
-    margin: 20px 0 0 30px;
-    padding: 10px;
-}
-.info:hover{
-    transform: translateX(-30px );
-    transition: transform 500ms ease-out;
-}
+.projectPic{
+    max-height: 300px;
+    max-width: 300px;
+}          
 .objectiveText{
     width: fit-content;
 }
-/* #admin{
-    margin-top: 10px;
+
+                                                                    /*Dark Mode*/
+.dark p {
+    color: aliceblue;
 }
-#inputCard{
-    height: 200px;
-    width: 400px;
-    background-color: chartreuse;
-    gap: 20px;
+.dark ul{
+    color: chocolate;
 }
-#cardDetails{
-display: flex;
+.dark h1{
+    color: aliceblue;
 }
-#cardHeader{
-display: flex;
+.dark .mode{
+    background-color: aliceblue;
 }
-#cardImage{
-    display: flex;
-}
-#cardButton{
-    width: min-content;
-}
-label{
-    width: min-content;
-} */
+
 
 
