@@ -158,5 +158,4 @@ function updateBlogs (){
     display.appendChild(blogContainer)
 
 }
-
 export{updateBlogs}
