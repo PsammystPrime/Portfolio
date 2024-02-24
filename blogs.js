@@ -41,7 +41,6 @@ function updateBlogs(){
     blogList.map((item)=>{    
         const blog = document.createElement('div')
         const blogPic = document.createElement('img')
-        const blogCard = document.createElement('div')
         const blogHeader = document.createElement('h1')
         const blogText = document.createElement('p')
 
@@ -54,10 +53,9 @@ function updateBlogs(){
         blogHeader.textContent = item.title
         blogText.textContent = item.about
 
-        blogCard.appendChild(blogHeader)
-        blogCard.appendChild(blogText)
+        blog.appendChild(blogHeader)
         blog.appendChild(blogPic)
-        blog.appendChild(blogCard)        
+        blog.appendChild(blogText)        
 
         blogContainer.appendChild(blog)
         display.appendChild(blogContainer)
