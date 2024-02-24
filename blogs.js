@@ -10,29 +10,51 @@ function Blog(title, pic, about, link) {
     this.pic = pic;
     this.link = link;
 }
-    const blog1 = new Blog(`Beginner's Quick Guide to gaining freelance skills using problem solving`, 'freelance.png',`The world of freelance work and remote jobs has seen the emergence of a rapid 
-    desire for technical sklls globally. Have you ever been asked for what type of job you'd like and in 
-    response found yourself saying "...any job that is available"? Well, this article is for you...`, 'www')
-    const blog7 = new Blog('Bundling Modules with Webpack','./bundling.jpg', `ES6 Modules are among the latest features in Javascript. This article will take you
-    through benefits of bundling up project modules and resources using webpack and why you should incorporate
-    such a tool for successful deployment of your project to production.`
-    ,'www2')
-    const blog4 = new Blog('Understanding Javascript Arrays and objects','arrays.jpg', `Arrays are one of the fundamental concepts to learn when one 
-    Is getting started with programming. Understanding them and how they work is key to getting your feet off 
-    the ground. This article has been drafted in the simplest way possible for effective understanding 
-    regardless of intellectual background. `, 'www2')
-    const blog2 = new Blog('Writing Great Content in 2024', '2024.jpg',`Proven Ideas and methods for writers in enhancing writing skills. It will guide
-     you through challenges a writer encounters and ways of overcomimg them ensuring you publish great content
-     that stands out to readers.`, 'www2')
-    const blog3 = new Blog(`Web Apps vs Mobile Apps`, 'comps.jpg',`We explore the world of web Development and Mobile Development both for users and
-    developers. Do's and Don'ts, expectations, and the factors that may necessitate one choice over another.`, 'www2')
-    const blog5 = new Blog(`Securing the Client-Side for your Web Applications`, 'securinglogo.webp', `A quick guide to understanding cyber security
-      threats on the front end of your web applications and measures against such modern-day attacks.`, 'www2')
-    const blog6 = new Blog(`Writing: Getting The Best Audience For Your Technical Content.`, 'writing.png',`Writing is a magnet; it either repels or 
-    attracts. Are you into technical writing? Get to know how to attract your audience.`, 'www2')
+const blogs =  (function (){
+    const blog1 = new Blog(`Beginner's Quick Guide to gaining freelance skills using problem solving`, 
+    'freelance.png',
+    `The world of freelance work and remote jobs has seen the emergence of a rapid 
+      desire for technical sklls globally. Have you ever been asked for what type of job you'd like and in 
+      response found yourself saying "...any job that is available"? Well, this article is for you...`,
+    'https://medium.com/@psammystprime/beginners-quick-guide-to-gaining-freelance-skills-using-problem-solving-10974c67ce96')
+    const blog7 = new Blog('Bundling Modules with Webpack',
+    './bundling.jpg', 
+    `ES6 Modules are among the latest features in Javascript. This article will take you
+      through benefits of bundling up project modules and resources using webpack and why you should incorporate
+      such a tool for successful deployment of your project to production.`,
+    'www2')
+    const blog4 = new Blog('Understanding Javascript Arrays and objects',
+    'arrays.jpg', 
+    `Arrays are one of the fundamental concepts to learn when one 
+      Is getting started with programming. Understanding them and how they work is key to getting your feet off 
+      the ground. This article has been drafted in the simplest way possible for effective understanding 
+      regardless of intellectual background. `, 
+    'https://medium.com/@psammystprime/js-arrays-81b3088eea8c')
+    const blog2 = new Blog('Writing Great Content in 2024', 
+    '2024.jpg',
+    `Proven Ideas and methods for writers in enhancing writing skills. It will guide
+      you through challenges a writer encounters and ways of overcomimg them ensuring you publish great content
+      that stands out to readers.`, 
+    'www2')
+    const blog3 = new Blog(`Web Apps vs Mobile Apps`, 
+    'comps.jpg',`
+    We explore the world of web Development and Mobile Development both for users and
+      developers. Do's and Don'ts, expectations, and the factors that may necessitate one choice over another.`, 
+    'https://medium.com/@psammystprime/mobile-apps-vs-web-apps-which-one-to-build-and-why-7725ef445cee')
+    const blog5 = new Blog(`Securing the Client-Side for your Web Applications`, 
+    'securinglogo.webp', 
+    `A quick guide to understanding cyber security
+      threats on the front end of your web applications and measures against such modern-day attacks.`, 
+    'https://medium.com/@psammystprime/securing-the-client-side-for-your-web-applications-2fbbd222e6fa')
+    const blog6 = new Blog(`Writing: Getting The Best Audience For Your Technical Content.`, 
+    'writing.png',
+    `Writing is a magnet; it either repels or 
+      attracts. Are you into technical writing? Get to know how to attract your audience.`, 
+    'https://rb.gy/ox49vk')
 
     blogList.push(blog1, blog2, blog3, blog4, blog5, blog6, blog7)
     blogList.reverse()
+})();
 
 function updateBlogs(){
     display.textContent = ''
