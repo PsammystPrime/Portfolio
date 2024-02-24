@@ -5,32 +5,74 @@ const projects = document.createElement('div')
 projects.className = 'projects';
 
 projectsContainer.appendChild(projects)
-
-//Staffood Restaurant
+// blog, projectPic, blogCard, blogHeader, blogLink, blogText
 const project1 = document.createElement('div')
 project1.className = 'project1'
-const info = document.createElement('div')
-info.className = 'info';
 
 const blog = document.createElement('div')
-const blogPic = document.createElement('img')
+const projectPic = document.createElement('img')
 const blogCard = document.createElement('div')
 const blogHeader = document.createElement('h1')
+const blogLink = document.createElement('a')
 const blogText = document.createElement('p')
 
 blog.className = 'project'
-blogPic.className = 'blogPic'
-blogPic.src = './peoplebg.jpeg'
+projectPic.className = 'projectPic'
+projectPic.src = './peoplebg.jpeg'
 blogText.className = 'projectText'
 blogHeader.className = 'blogHeader'
-blogHeader.textContent = `Staffood Restaurant`
-blogText.textContent = `The world of freelance workand remote jobs has seen the emergence of a rapid 
-desire for technical sklls globally.`
 
-blogCard.appendChild(blogHeader)
+blogLink.appendChild(blogHeader)
+blogCard.appendChild(blogLink)
 blogCard.appendChild(blogText)
-blog.appendChild(blogPic)
 blog.appendChild(blogCard)
+blog.appendChild(projectPic)
+
+project1.appendChild(blog)
+projects.appendChild(project1)
+
+function CreateProjects(header,text,link){
+
+this.blogLink = link
+// this.projectPic = pic
+this.blogHeader = header
+this.blogText = text
+blogHeader.textContent = header
+blogText.textContent = text
+// projectPic.alt = pic
+blogLink.href = link
+}
+const goo = new CreateProjects('hey','too','gee.com')
+const goo2 = new CreateProjects('hey','too','null','gee')
+console.log(goo, goo2)
+//Staffood Restaurant
+// const project1 = document.createElement('div')
+// project1.className = 'project1'
+const info = document.createElement('div')
+info.className = 'info';
+
+// const blog = document.createElement('div')
+// const projectPic = document.createElement('img')
+// const blogCard = document.createElement('div')
+// const blogHeader = document.createElement('h1')
+// const blogLink = document.createElement('a')
+// const blogText = document.createElement('p')
+
+// blogLink.href = ''
+// blog.className = 'project'
+// projectPic.className = 'projectPic'
+// projectPic.src = './peoplebg.jpeg'
+// blogText.className = 'projectText'
+// blogHeader.className = 'blogHeader'
+// blogHeader.textContent = `Staffood Restaurant`
+// blogText.textContent = `A simple restaurant page for delicacies`
+
+// blogLink.appendChild(blogHeader)
+// blogCard.appendChild(blogLink)
+// blogCard.appendChild(blogText)
+// blog.appendChild(blogCard)
+// blog.appendChild(projectPic)
+
 
 const blogObjective = document.createElement('div')
 const objectiveHeader = document.createElement('h3')
@@ -51,7 +93,7 @@ stackHeader.className = 'stackHeader'
 stack.className = 'stack'
 
 objectiveHeader.textContent = 'Project Objective'
-objectiveText.textContent = 'This is a Project solely devoted to use of grids in css as opposed to use of flexbox'
+objectiveText.textContent = 'To demonstrate proper understanding of ES6 modules and Dom Manipulation'
 stackHeader.textContent = 'Tech-Stack'
 stackList1.textContent = 'Dynamic'
 stackList2.textContent = 'HTML5'
@@ -70,9 +112,9 @@ blogStack.appendChild(stack)
     info.appendChild(blogObjective)
     info.appendChild(blogStack)
 
-project1.appendChild(blog)
+// project1.appendChild(blog)
 project1.appendChild(info)
-projects.appendChild(project1)
+// projects.appendChild(project1)
 
 //Weather App
 const project2 = document.createElement('div')
@@ -84,19 +126,24 @@ const blog2 = document.createElement('div')
 const blog2Pic = document.createElement('img')
 const blog2Card = document.createElement('div')
 const blog2Header = document.createElement('h1')
+const blog2Link = document.createElement('a')
 const blog2Text = document.createElement('p')
+
+blog2Link.href = 'https://Psammystprime.github.io/Weather-App'
 blog2.className = 'project'
-blog2Pic.className = 'blogPic'
+blog2Pic.className = 'projectPic'
 blog2Pic.src = './weather.png'
 blog2Text.className = 'projectText'
 blog2Header.className = 'blogHeader'
 blog2Header.textContent = 'Weather App'
-blog2Text.textContent = `Arrays are one of the fundamental concepts to learn when one 
-Is getting started with programming. ` 
-blog2Card.appendChild(blog2Header)
+blog2Text.textContent = `Get live feed on climate conditions` 
+
+blog2Link.appendChild(blog2Header)
+blog2Card.appendChild(blog2Link)
 blog2Card.appendChild(blog2Text)
-blog2.appendChild(blog2Pic)
 blog2.appendChild(blog2Card)
+blog2.appendChild(blog2Pic)
+
 
 const blog2Objective = document.createElement('div')
 const objective2Header = document.createElement('h3')
@@ -117,7 +164,7 @@ stack2Header.className = 'stackHeader'
 stack2.className = 'stack'
 
 objective2Header.textContent = 'Project Objective'
-objective2Text.textContent = 'This is a Project solely devoted to use of grids in css as opposed to use of flexbox'
+objective2Text.textContent = "Demonstrating efficient fetching of data from API's, Json and Promises"
 stack2List1.textContent = 'Dynamic'
 stack2List2.textContent = 'HTML5'
 stack2List3.textContent = 'CSS'
@@ -149,21 +196,24 @@ const blog3 = document.createElement('div')
 const blog3Pic = document.createElement('img')
 const blog3Card = document.createElement('div')
 const blog3Header = document.createElement('h1')
+const blog3Link = document.createElement('a')
 const blog3Text = document.createElement('p')
 
+blog3Link.href = 'https://Psammystprime.github.io/Calculator'
 blog3.className = 'project'
-blog3Pic.className = 'blogPic'
+blog3Pic.className = 'projectPic'
 blog3Pic.src = './calc.png'
 blog3Text.className = 'projectText'
 blog3Header.className = 'blogHeader'
 blog3Header.textContent = `Calculator`
-blog3Text.textContent = `The world of freelance workand remote jobs has seen the emergence of a rapid 
-desire for technical sklls globally.`
+blog3Text.textContent = `A JavaScript Calculator for Users`
 
-blog3Card.appendChild(blog3Header)
+blog3Link.appendChild(blog3Header)
+blog3Card.appendChild(blog3Link)
 blog3Card.appendChild(blog3Text)
-blog3.appendChild(blog3Pic)
 blog3.appendChild(blog3Card)
+blog3.appendChild(blog3Pic)
+
 
 const blog3Objective = document.createElement('div')
 const objective3Header = document.createElement('h3')
@@ -184,7 +234,7 @@ stack3Header.className = 'stackHeader'
 stack3.className = 'stack'
 
 objective3Header.textContent = 'Project Objective'
-objective3Text.textContent = 'This is a Project solely devoted to use of grids in css as opposed to use of flexbox'
+objective3Text.textContent = 'Creating own functionality and abstaining from using the eval function'
 stack3List1.textContent = 'Dynamic'
 stack3List2.textContent = 'HTML5'
 stack3List3.textContent = 'CSS'
@@ -211,6 +261,7 @@ const blog4 = document.createElement('div')
 const blog4Pic = document.createElement('img')
 const blog4Card = document.createElement('div')
 const blog4Header = document.createElement('h1')
+const blog4Link = document.createElement('a')
 const blog4Text = document.createElement('p')
 
 const project4 = document.createElement('div')
@@ -218,19 +269,21 @@ project4.className = 'project1'
 const info4 = document.createElement('div')
 info4.className = 'info';
 
+blog4Link.href = 'https://Psammystprime.github.io/image-slider'
 blog4.className = 'project'
-blog4Pic.className = 'blogPic'
+blog4Pic.className = 'projectPic'
 blog4Pic.src = './slider.png'
 blog4Text.className = 'projectText'
 blog4Header.className = 'blogHeader'
 blog4Header.textContent = `Image Slider`
-blog4Text.textContent = `The world of freelance workand remote jobs has seen the emergence of a rapid 
-desire for technical sklls globally.`
+blog4Text.textContent = `An image Carousel`
 
-blog4Card.appendChild(blog4Header)
+blog4Link.appendChild(blog4Header)
+blog4Card.appendChild(blog4Link)
 blog4Card.appendChild(blog4Text)
-blog4.appendChild(blog4Pic)
 blog4.appendChild(blog4Card)
+blog4.appendChild(blog4Pic)
+
 
 const blog4Objective = document.createElement('div')
 const objective4Header = document.createElement('h3')
@@ -251,7 +304,7 @@ stack4Header.className = 'stackHeader'
 stack4.className = 'stack'
 
 objective4Header.textContent = 'Project Objective'
-objective4Text.textContent = 'This is a Project solely devoted to use of grids in css as opposed to use of flexbox'
+objective4Text.textContent = 'Enhancing understanding of CSS'
 stack4List1.textContent = 'Dynamic'
 stack4List2.textContent = 'HTML5'
 stack4List3.textContent = 'CSS'
@@ -278,6 +331,7 @@ const blog5 = document.createElement('div')
 const blog5Pic = document.createElement('img')
 const blog5Card = document.createElement('div')
 const blog5Header = document.createElement('h1')
+const blog5Link = document.createElement('a')
 const blog5Text = document.createElement('p')
 
 const project5 = document.createElement('div')
@@ -285,19 +339,21 @@ project5.className = 'project1'
 const info5 = document.createElement('div')
 info5.className = 'info';
 
+blog5Link.href = 'https://Psammystprime.github.io/Project-Admin-Dashboard'
 blog5.className = 'project'
-blog5Pic.className = 'blogPic'
+blog5Pic.className = 'projectPic'
 blog5Pic.src = './admin.png'
 blog5Text.className = 'projectText'
 blog5Header.className = 'blogHeader'
-blog5Header.textContent = `Admin Dashboard for a Blog`
-blog5Text.textContent = `The world of freelance workand remote jobs has seen the emergence of a rapid 
-desire for technical sklls globally.`
+blog5Header.textContent = `Admin Blog`
+blog5Text.textContent = `An Admin dashboard for a blog website`
 
-blog5Card.appendChild(blog5Header)
+blog5Link.appendChild(blog5Header)
+blog5Card.appendChild(blog5Link)
 blog5Card.appendChild(blog5Text)
-blog5.appendChild(blog5Pic)
 blog5.appendChild(blog5Card)
+blog5.appendChild(blog5Pic)
+
 
 const blog5Objective = document.createElement('div')
 const objective5Header = document.createElement('h3')
@@ -345,6 +401,7 @@ const blog6 = document.createElement('div')
 const blog6Pic = document.createElement('img')
 const blog6Card = document.createElement('div')
 const blog6Header = document.createElement('h1')
+const blog6Link = document.createElement('a')
 const blog6Text = document.createElement('p')
 
 const project6 = document.createElement('div')
@@ -352,19 +409,21 @@ project6.className = 'project1'
 const info6 = document.createElement('div')
 info6.className = 'info';
 
+blog6Link.href = ''
 blog6.className = 'project'
-blog6Pic.className = 'blogPic'
+blog6Pic.className = 'projectPic'
 blog6Pic.src = './list.png'
 blog6Text.className = 'projectText'
 blog6Header.className = 'blogHeader'
 blog6Header.textContent = `To do list`
-blog6Text.textContent = `The world of freelance workand remote jobs has seen the emergence of a rapid 
-desire for technical sklls globally.`
+blog6Text.textContent = `Not the usual type to-do-list. `
 
-blog6Card.appendChild(blog6Header)
+blog6Link.appendChild(blog6Header)
+blog6Card.appendChild(blog6Link)
 blog6Card.appendChild(blog6Text)
-blog6.appendChild(blog6Pic)
 blog6.appendChild(blog6Card)
+blog6.appendChild(blog6Pic)
+
 
 const blog6Objective = document.createElement('div')
 const objective6Header = document.createElement('h3')
@@ -385,7 +444,7 @@ stack6Header.className = 'stackHeader'
 stack6.className = 'stack'
 
 objective6Header.textContent = 'Project Objective'
-objective6Text.textContent = 'This is a Project solely devoted to use of grids in css as opposed to use of flexbox'
+objective6Text.textContent = 'Dom manipulation on large scale and ES6 modules bundling using webpack '
 stack6List1.textContent = 'Dynamic'
 stack6List2.textContent = 'HTML5'
 stack6List3.textContent = 'CSS'
@@ -412,6 +471,7 @@ const blog7 = document.createElement('div')
 const blog7Pic = document.createElement('img')
 const blog7Card = document.createElement('div')
 const blog7Header = document.createElement('h1')
+const blog7Link = document.createElement('a')
 const blog7Text = document.createElement('p')
 
 const project7 = document.createElement('div')
@@ -419,19 +479,21 @@ project7.className = 'project1'
 const info7 = document.createElement('div')
 info7.className = 'info';
 
+blog7Link.href = ''
 blog7.className = 'project'
-blog7Pic.className = 'blogPic'
+blog7Pic.className = 'projectPic'
 blog7Pic.src = './library.png'
 blog7Text.className = 'projectText'
 blog7Header.className = 'blogHeader'
 blog7Header.textContent = `Book Library`
-blog7Text.textContent = `The world of freelance workand remote jobs has seen the emergence of a rapid 
-desire for technical sklls globally.`
+blog7Text.textContent = `An online library for books`
 
-blog7Card.appendChild(blog7Header)
+blog7Link.appendChild(blog7Header)
+blog7Card.appendChild(blog7Link)
 blog7Card.appendChild(blog7Text)
-blog7.appendChild(blog7Pic)
 blog7.appendChild(blog7Card)
+blog7.appendChild(blog7Pic)
+
 
 const blog7Objective = document.createElement('div')
 const objective7Header = document.createElement('h3')
@@ -452,7 +514,7 @@ stack7Header.className = 'stackHeader'
 stack7.className = 'stack'
 
 objective7Header.textContent = 'Project Objective'
-objective7Text.textContent = 'This is a Project solely devoted to use of grids in css as opposed to use of flexbox'
+objective7Text.textContent = 'Robust Dom manipulation and Local Storage functionality'
 stack7List1.textContent = 'Dynamic'
 stack7List2.textContent = 'HTML5'
 stack7List3.textContent = 'CSS'
@@ -479,6 +541,7 @@ const blog8 = document.createElement('div')
 const blog8Pic = document.createElement('img')
 const blog8Card = document.createElement('div')
 const blog8Header = document.createElement('h1')
+const blog8Link = document.createElement('a')
 const blog8Text = document.createElement('p')
 
 const project8 = document.createElement('div')
@@ -486,19 +549,21 @@ project8.className = 'project1'
 const info8 = document.createElement('div')
 info8.className = 'info';
 
+blog8Link.href = 'https://Psammystprime.github.io/Landing-Page'
 blog8.className = 'project'
-blog8Pic.className = 'blogPic'
+blog8Pic.className = 'projectPic'
 blog8Pic.src = './2024.jpg'
 blog8Text.className = 'projectText'
 blog8Header.className = 'blogHeader'
 blog8Header.textContent = `Landing Page`
-blog8Text.textContent = `The world of freelance workand remote jobs has seen the emergence of a rapid 
-desire for technical sklls globally.`
+blog8Text.textContent = `My first Landing Page`
 
-blog8Card.appendChild(blog8Header)
+blog8Link.appendChild(blog8Header)
+blog8Card.appendChild(blog8Link)
 blog8Card.appendChild(blog8Text)
-blog8.appendChild(blog8Pic)
 blog8.appendChild(blog8Card)
+blog8.appendChild(blog8Pic)
+
 
 const blog8Objective = document.createElement('div')
 const objective8Header = document.createElement('h3')
@@ -519,7 +584,7 @@ stack8Header.className = 'stackHeader'
 stack8.className = 'stack'
 
 objective8Header.textContent = 'Project Objective'
-objective8Text.textContent = 'This is a Project solely devoted to use of grids in css as opposed to use of flexbox'
+objective8Text.textContent = 'Use of foundational skills on HTML and CSS'
 stack8List1.textContent = 'Static'
 stack8List2.textContent = 'HTML5'
 stack8List3.textContent = 'CSS'
@@ -546,6 +611,7 @@ const blog9 = document.createElement('div')
 const blog9Pic = document.createElement('img')
 const blog9Card = document.createElement('div')
 const blog9Header = document.createElement('h1')
+const blog9Link = document.createElement('a')
 const blog9Text = document.createElement('p')
 
 const project9 = document.createElement('div')
@@ -553,19 +619,21 @@ project9.className = 'project1'
 const info9 = document.createElement('div')
 info9.className = 'info';
 
+blog9Link.href = 'https://Psammystprime.github.io/Card'
 blog9.className = 'project'
-blog9Pic.className = 'blogPic'
+blog9Pic.className = 'projectPic'
 blog9Pic.src = './card.png'
 blog9Text.className = 'projectText'
 blog9Header.className = 'blogHeader'
 blog9Header.textContent = `Card`
-blog9Text.textContent = `The world of freelance workand remote jobs has seen the emergence of a rapid 
-desire for technical sklls globally.`
+blog9Text.textContent = `A business card`
 
-blog9Card.appendChild(blog9Header)
+blog9Link.appendChild(blog9Header)
+blog9Card.appendChild(blog9Link)
 blog9Card.appendChild(blog9Text)
-blog9.appendChild(blog9Pic)
 blog9.appendChild(blog9Card)
+blog9.appendChild(blog9Pic)
+
 
 const blog9Objective = document.createElement('div')
 const objective9Header = document.createElement('h3')
@@ -586,7 +654,7 @@ stack9Header.className = 'stackHeader'
 stack9.className = 'stack'
 
 objective9Header.textContent = 'Project Objective'
-objective9Text.textContent = 'This is a Project solely devoted to use of grids in css as opposed to use of flexbox'
+objective9Text.textContent = 'Frontend Mentor Project'
 stack9List1.textContent = 'Static'
 stack9List2.textContent = 'HTML5'
 stack9List3.textContent = 'CSS'
@@ -614,6 +682,7 @@ const blog10 = document.createElement('div')
 const blog10Pic = document.createElement('img')
 const blog10Card = document.createElement('div')
 const blog10Header = document.createElement('h1')
+const blog10Link = document.createElement('a')
 const blog10Text = document.createElement('p')
 
 const project10 = document.createElement('div')
@@ -622,18 +691,20 @@ const info10 = document.createElement('div')
 info10.className = 'info';
 
 blog10.className = 'project'
-blog10Pic.className = 'blogPic'
+blog10Link.href = 'https://Psammystprime.github.io/Passenger-Counter'
+blog10Pic.className = 'projectPic'
 blog10Pic.src = './count.png'
 blog10Text.className = 'projectText'
 blog10Header.className = 'blogHeader'
 blog10Header.textContent = `Passenger Counter`
-blog10Text.textContent = `The world of freelance workand remote jobs has seen the emergence of a rapid 
-desire for technical sklls globally.`
+blog10Text.textContent = `Let's count`
 
-blog10Card.appendChild(blog10Header)
+blog10Link.appendChild(blog10Header)
+blog10Card.appendChild(blog10Link)
 blog10Card.appendChild(blog10Text)
-blog10.appendChild(blog10Pic)
 blog10.appendChild(blog10Card)
+blog10.appendChild(blog10Pic)
+
 
 const blog10Objective = document.createElement('div')
 const objective10Header = document.createElement('h3')
@@ -654,7 +725,7 @@ stack10Header.className = 'stackHeader'
 stack10.className = 'stack'
 
 objective10Header.textContent = 'Project Objective'
-objective10Text.textContent = 'This is a Project solely devoted to use of grids in css as opposed to use of flexbox'
+objective10Text.textContent = 'Project from Scrimba'
 stack10List1.textContent = 'Dynamic'
 stack10List2.textContent = 'HTML5'
 stack10List3.textContent = 'CSS'
@@ -679,7 +750,8 @@ projects.appendChild(project10)
 
 function UpdateProjects (){
     display.textContent = '';
-    display.appendChild(projectsContainer)
+    display.textContent = 'Tab under maintainance';
+    // display.appendChild(projectsContainer)
 
 }
 
