@@ -52,8 +52,11 @@ const blogs =  (function (){
       through benefits of bundling up project modules and resources using webpack and why you should incorporate
       such a tool for successful deployment of your project to production.`,
     'https://medium.com/@psammystprime/understanding-webpack-3839e0d50e7d?source=your_stories_page-------------------------------------')
-
-    blogList.push(blog1, blog2, blog3, blog4, blog5, blog6, blog7)
+    const blog8 = new Blog(`Using the Fetch API and Promises`,
+    'fetch.jpg',
+    `An introduction to Asynchronous Code and fetching data from an API.`,
+    'https://medium.com/@psammystprime/using-the-fetch-api-and-promises-1793993bd1eb')
+    blogList.push(blog1, blog2, blog3, blog4, blog5, blog6, blog7, blog8)
     blogList.reverse()
 })();
 //Display blogs on screen
