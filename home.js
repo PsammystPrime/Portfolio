@@ -77,15 +77,12 @@ schools.forEach((edu)=>{
     education.appendChild(school)
 })
 
-
-
 technologies.appendChild(header2)
 technologies.appendChild(ul)
 technologies.appendChild(line2)
 technologies.appendChild(education)
 displayMain.appendChild(technologies)
 displayMain.appendChild(line3)
-
 
 
 const contact = document.createElement('div')
@@ -96,19 +93,9 @@ const contactPara =document.createElement('p')
 contactPara.className = 'contactPara'
 contactPara.textContent = `Looking for a curious and adaptable Junior Developer to join the team? Searching for any kind of collaboration, consultation, or insights?
 Have some advice, questions? Feel free to let me know via any platform below;`
-const credentials =document.createElement('div')
-credentials.className = 'credentials'
-const link = document.createElement('a')
-link.href = 'https://Psammystprime384@gmail.com/'
-const linkImg = document.createElement('img')
-linkImg.src = './email-outline.svg'
-linkImg.className = 'email' 
-
-link.appendChild(linkImg)
-credentials.appendChild(link)
+ 
 contact.appendChild(contactheader)
 contact.appendChild(contactPara)
-contact.appendChild(credentials)
 displayMain.appendChild(contact)
 
 function updateHome(){
