@@ -31,27 +31,33 @@ technologies.className = 'technologies'
 const header2 = document.createElement('h2')
 header2.textContent = 'Technologies'
 const ul = document.createElement('ul')
-const list1 =document.createElement('li')
-const list2 =document.createElement('li')
-const list3 =document.createElement('li')
-const list4 =document.createElement('li')
-const list5 =document.createElement('li')
-const list6 =document.createElement('li')
-const list7 =document.createElement('li')
-list1.textContent = 'HTML'
-list2.textContent = 'CSS'
-list3.textContent = 'JavaScript'
-list4.textContent = 'React'
-list5.textContent = 'Webpack'
-list6.textContent = 'ES6'
-list7.textContent = 'Git'
-ul.appendChild(list1)
-ul.appendChild(list2)
-ul.appendChild(list3)
-ul.appendChild(list4)
-ul.appendChild(list5)
-ul.appendChild(list6)
-ul.appendChild(list7)
+// const list1 =document.createElement('li')
+// const list2 =document.createElement('li')
+// const list3 =document.createElement('li')
+// const list4 =document.createElement('li')
+// const list5 =document.createElement('li')
+// const list6 =document.createElement('li')
+// const list7 =document.createElement('li')
+
+const skills = ['JavaScript','React','APIs','Jest','Git','Webpack','ES6','JAMstack','OOP','Data Structures and Algorithms','Web Security','HTML','CSS']
+skills.forEach((skill)=>{
+    const list =document.createElement('li')
+    list.textContent = skill
+    ul.appendChild(list)
+})
+// ul.appendChild(list1)
+// ul.appendChild(list2)
+// ul.appendChild(list3)
+// ul.appendChild(list4)
+// ul.appendChild(list5)
+// ul.appendChild(list6)
+// ul.appendChild(list7)
+// ul.appendChild(list8)
+// ul.appendChild(list9)
+// ul.appendChild(list10)
+// ul.appendChild(list11)
+// ul.appendChild(list12)
+// ul.appendChild(list13)
 technologies.appendChild(header2)
 technologies.appendChild(ul)
 displayMain.appendChild(technologies)
@@ -63,7 +69,8 @@ const contactheader =document.createElement('h2')
 contactheader.textContent = 'Get in Touch'
 const contactPara =document.createElement('p')
 contactPara.className = 'contactPara'
-contactPara.textContent = 'Are you looking for a curious and adaptable junior developer to join your team? Look no further. Looking for any kind of collaboration or consultation? Have some advice for me? Having some questions? Feel free to let me know via any platform below;'
+contactPara.textContent = `Looking for a curious and adaptable Junior Developer to join the team? Searching for any kind of collaboration, consultation, or insights?
+Have some advice, questions? Feel free to let me know via any platform below;`
 const credentials =document.createElement('div')
 credentials.className = 'credentials'
 const link = document.createElement('a')
@@ -78,33 +85,6 @@ contact.appendChild(contactheader)
 contact.appendChild(contactPara)
 contact.appendChild(credentials)
 displayMain.appendChild(contact)
-
-// const form = document.createElement('form')
-// const emailLabel = document.createElement('label')
-// const emailInput = document.createElement('input')
-// const messageLabel = document.createElement('label')
-// const messageInput = document.createElement('input')
-// const submitButton = document.createElement('button')
-
-// emailForm.className = 'emailForm'
-// form.action = '#'
-// form.method = 'get'
-// emailLabel.textContent = 'Email'
-// emailInput.type = 'text'
-// messageLabel.textContent = 'Message'
-// messageInput.type = 'text'
-// submitButton.className = 'send'
-// submitButton.textContent = 'Send'
-
-// form.appendChild(emailLabel)
-// form.appendChild(emailInput)
-// form.appendChild(messageLabel)
-// form.appendChild(messageInput)
-// form.appendChild(submitButton)
-// emailForm.appendChild(form)
-
-// displayMain.appendChild(about)
-// displayMain.appendChild(emailForm)
 
 function updateHome(){
     display.textContent=''
