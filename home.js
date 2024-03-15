@@ -1,4 +1,8 @@
 const display = document.querySelector('.display')
+const line = document.createElement('hr')
+const line2 = document.createElement('hr')
+const line3 = document.createElement('hr')
+
 
 const displayMain = document.createElement('div')
 const about = document.createElement('div')
@@ -25,19 +29,14 @@ aboutInfo.appendChild(aboutText)
 about.appendChild(aboutImage)
 about.appendChild(aboutInfo)
 displayMain.appendChild(about)
+displayMain.appendChild(line)
+
 
 const technologies = document.createElement('div')
 technologies.className = 'technologies'
 const header2 = document.createElement('h2')
 header2.textContent = 'Technologies'
 const ul = document.createElement('ul')
-// const list1 =document.createElement('li')
-// const list2 =document.createElement('li')
-// const list3 =document.createElement('li')
-// const list4 =document.createElement('li')
-// const list5 =document.createElement('li')
-// const list6 =document.createElement('li')
-// const list7 =document.createElement('li')
 
 const skills = ['JavaScript','React','APIs','Jest','Git','Webpack','ES6','JAMstack','OOP','Data Structures and Algorithms','Web Security','HTML','CSS']
 skills.forEach((skill)=>{
@@ -45,22 +44,48 @@ skills.forEach((skill)=>{
     list.textContent = skill
     ul.appendChild(list)
 })
-// ul.appendChild(list1)
-// ul.appendChild(list2)
-// ul.appendChild(list3)
-// ul.appendChild(list4)
-// ul.appendChild(list5)
-// ul.appendChild(list6)
-// ul.appendChild(list7)
-// ul.appendChild(list8)
-// ul.appendChild(list9)
-// ul.appendChild(list10)
-// ul.appendChild(list11)
-// ul.appendChild(list12)
-// ul.appendChild(list13)
+
+const education = document.createElement('div')
+const educationHeader = document.createElement('h2')
+educationHeader.textContent = 'EDUCATION'
+education.appendChild(educationHeader)
+
+function School (name, info, date){
+    this.name = name
+    this.info = info
+    this.date = date
+}
+
+const edu1 = new School("Harvard-X","Introduction to Computer Science and the art of Programming", "Dec 2023 - Mar 2024" )
+const edu2 = new School("Thika Technical Training Institute", "Diploma in Electrical & Electronics Engineering", "Nov 2021 - Nov 2024")
+
+const schools = [edu1,edu2]
+schools.forEach((edu)=>{
+    const school = document.createElement('ol')
+    const name = document.createElement('h3')
+    const info = document.createElement('p')
+    const  date = document.createElement('p')
+
+    name.textContent = edu.name
+    info.textContent = edu.info
+    date.textContent = edu.date
+
+    school.appendChild(name)
+    school.appendChild(info)
+    school.appendChild(date)
+
+    education.appendChild(school)
+})
+
+
+
 technologies.appendChild(header2)
 technologies.appendChild(ul)
+technologies.appendChild(line2)
+technologies.appendChild(education)
 displayMain.appendChild(technologies)
+displayMain.appendChild(line3)
+
 
 
 const contact = document.createElement('div')
