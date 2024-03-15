@@ -8,7 +8,7 @@ import { updateBlogs } from "./blogs.js";
 import { updateHome } from "./home.js";
 
 blogs.addEventListener('click', updateBlogs)
-// projects.addEventListener('click', UpdateProjects)
+projects.addEventListener('click', alert('Under development, taking you to github '))
 home.addEventListener('click', updateHome)
 
 // const mode = document.querySelector('.mode')
