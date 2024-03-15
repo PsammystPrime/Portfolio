@@ -79,25 +79,27 @@ body{
                                                             /* About */
 .displayMain{
     gap: 30px;
+    
 }
 .about{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     gap: 30px;
     flex-wrap: wrap;
-    padding-top: 50px;
-    margin-bottom: 30px;
+    padding: 0 0 30px 15px;
+    margin: 10px 0 30px 0;
+    background-color: rgb(44, 41, 41);
 }
 .mainImg{
     margin-top: 30px;
-    min-height: 230px;
+    min-height: 200px;
     min-width: 250px;
-    max-height: 500px;
-    max-width: 500px;
-    align-self: center;
+    max-height: 240px;
+    /* max-width: 00px; */
+    /* align-self: center; */
     border-radius: 80px;
-    padding: 5px;
+    padding: 7px;
     animation-name: changeColor;
     animation-duration: 2s;
     animation-direction: alternate;
@@ -112,11 +114,12 @@ body{
     }
 }
 .textArea{
-    max-width: 300px;
+    max-width: 500px;
+    padding-right: 20px;
 }
 .contactPara{
-    max-width: 700px;
-    margin-left: 10px;
+    /* max-width: 700px; */
+    /* margin-left: 10px; */
 }
 
                                                             /* Email */
