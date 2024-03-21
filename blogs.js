@@ -78,7 +78,7 @@ function updateBlogs(){
         blogHeader.className = 'blogHeader'
         blogLink.href = item.link
         blogLink.textContent = item.title
-        blogPic.src = `./${item.pic}`
+        blogPic.src = `/assets/blogs/${item.pic}`
         blogText.textContent = item.about
 
         blogHeader.appendChild(blogLink)
