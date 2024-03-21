@@ -95,13 +95,27 @@ body{
     font-size: larger;
     color: white;
 }
-
-
+                                                /* Technoogies */
 ul, ol>p{
     font-size: larger;
-    
 }
-
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+li{ 
+    display: flex;
+    background-color: rgb(44, 179, 179);
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    animation-name: changeColor;
+    animation-duration: 7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
                                                  /* Contact */
 
 .contactPara{
