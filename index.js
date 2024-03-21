@@ -7,7 +7,7 @@ import { updateBlogs } from "./blogs.js";
 // import { UpdateProjects } from "./projects.js";
 import { updateHome } from "./home.js";
 
-blogs.addEventListener('click', updateBlogs)
+// blogs.addEventListener('click', updateBlogs)
 // projects.addEventListener('click', )
 home.addEventListener('click', updateHome)
 
