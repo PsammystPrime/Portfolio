@@ -8,25 +8,12 @@ import { updateBlogs } from "./blogs.js";
 import { updateHome } from "./home.js";
 
 blogs.addEventListener('click', updateBlogs)
-projects.addEventListener('click', alert('Under development, taking you to github '))
+// projects.addEventListener('click', )
 home.addEventListener('click', updateHome)
 
-// const mode = document.querySelector('.mode')
-// mode.addEventListener('click', ()=>{
-//     let body = document.body
-//     body.classList.toggle('dark' )
-// })
+updateHome()
 
-// submit.addEventListener('click', (e)=>{
-//     e.preventDefault()
-//     status.textContent = '';
-//     if(message.value!==''){
-//     status.textContent = 'Message not Sent'
-//     }
-// })
-
-
-// function updateHome(){
+// function updateHome(){s
     
 //     display.textContent=''
 
@@ -36,9 +23,6 @@ home.addEventListener('click', updateHome)
 //         this.preview=preview
 //     }
     
-//     let blog=new Blogs('img','none','other')
-//     console.log(blog)
-// }
 
 
 
