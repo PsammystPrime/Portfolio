@@ -1,9 +1,7 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.dark{
-    background-color: black;
-}
+
 .container{
     margin: 10px;
     margin-top: 60px;
@@ -18,28 +16,7 @@ body{
     top: 10px;
     right: 1vw;
 }
-.modeButtons{
-    display: flex;
-    gap: 10px;
-    margin-bottom: 5px;
-}
-.mode{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    transform: rotate(150deg);
-}
-.mode:hover{
-    background-color: red;
-    color: wheat;
-}
-.headButtons > button{
-    background-color: goldenrod;
-}
-.headButtons > button:hover{
-    background-color: thistle;
-    color: blue;
-}
+
 .navButtons{
     display: flex;
     gap: 20px;
@@ -49,6 +26,7 @@ body{
 .navButtons > button{
     background-color: goldenrod;
     border-radius: 30px;
+    font-size: medium;
 }
 .navButtons > button:hover{
     background-color: thistle;
@@ -114,36 +92,8 @@ body{
 .textArea{
     max-width: 500px;
     padding-right: 20px;
-    color: wheat;
-}
-
-                                                            /* Email */
-.credentials{
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    max-width: 410px;
-}
-.dark .credentials{
-    background-color: green;
-}
-.credentials:hover{
-    height: 120px;background-color: rgb(182, 217, 248);
-}
-.email{
-    width: 120px;
-    
-}
-#download-icon{
-    width: 80px;
-    height: 80px;
-}
-.download{
-    display: flex;
-    align-items: flex-start;
-    padding-top: -20px;
+    font-size: larger;
+    color: white;
 }
 
 
@@ -167,9 +117,6 @@ footer > button:hover{
     border-radius: 70%;
     /* border: 5px solid black; */
 }
-.dark #gh-logo{
-    background-color: rgb(198, 207, 216);
-}
 
                                             /* Universal Tags */
 h1{
@@ -183,7 +130,6 @@ h2{
 }
 h3{
     color: brown;
-    font-style: oblique;
     font-weight: bolder;
     font-size: x-large;
 }
@@ -228,7 +174,6 @@ li{
     max-width: 330px;
 }
 .blog:hover{
-    background-color: brown;
     transform: translateX(5px);
     transition: transform 500ms ease-out;
 }
@@ -264,19 +209,6 @@ li{
     width: fit-content;
 }
 
-                                                                    /*Dark Mode*/
-.dark p {
-    color: aliceblue;
-}
-.dark ul{
-    color: chocolate;
-}
-.dark h1{
-    color: aliceblue;
-}
-.dark .mode{
-    background-color: aliceblue;
-}
 
 
 
