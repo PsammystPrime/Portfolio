@@ -97,6 +97,17 @@ body{
 }
 
 
+ul, ol>p{
+    font-size: larger;
+    
+}
+
+                                                 /* Contact */
+
+.contactPara{
+    font-size: larger;
+}
+
                                                     /*footer*/
 footer{
     display: flex;
