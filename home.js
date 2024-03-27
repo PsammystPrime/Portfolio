@@ -13,7 +13,7 @@ const aboutText = document.createElement('p')
 
 displayMain.className = 'displayMain'
 about.className = 'about'
-aboutImage.src = '/assets/pic.png'
+aboutImage.src = './assets/pic.png'
 aboutImage.className = 'mainImg'
 aboutInfo.className = 'textArea'
 aboutHeader.textContent = 'About'
